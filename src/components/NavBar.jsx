@@ -9,7 +9,7 @@ const NavBar = () => {
 
   return (
     <div
-      className={`fixed w-full h-[60px] flex justify-between p-4 items-center  bg-[#000000] text-gray-300`}
+      className={`fixed w-full h-[60px] flex justify-between p-4 items-center  bg-[#0000007d] text-gray-300`}
     >
       {/* logo */}
       <Link to="home" smooth={true} duration={500}>
