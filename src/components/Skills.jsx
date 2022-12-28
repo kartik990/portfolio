@@ -8,6 +8,9 @@ import Node from "../assets/node.png";
 import FireBase from "../assets/firebase.png";
 import GitHub from "../assets/github.png";
 import Tailwind from "../assets/tailwind.png";
+import material from "../assets/mi.png";
+import cpp from "../assets/cpp.png";
+import boot from "../assets/bookt.png";
 import Mongo from "../assets/mongo.png";
 
 const Skills = () => {
@@ -38,6 +41,10 @@ const Skills = () => {
             <p>JavaScript</p>
           </div>
           <div className="flex flex-col justify-center items-center  hover:scale-110 duration-300">
+            <img className="w-20 mx-auto mb-2" src={cpp} alt="CSS" />
+            <p>C++</p>
+          </div>
+          <div className="flex flex-col justify-center items-center  hover:scale-110 duration-300">
             <img className="w-20 mx-auto mb-2" src={FireBase} alt="CSS" />
             <p>Firebase</p>
           </div>
@@ -53,13 +60,22 @@ const Skills = () => {
             <img className="w-20 mx-auto mb-2" src={Mongo} alt="CSS" />
             <p>MongoDB</p>
           </div>
-          <div className="flex flex-col justify-center items-center  hover:scale-110 duration-300">
-            <img className="w-20 mx-auto mb-2" src={Tailwind} alt="CSS" />
-            <p>Tailwind</p>
-          </div>
+
           <div className="flex flex-col justify-center items-center  hover:scale-110 duration-300">
             <img className="w-20 mx-auto mb-2" src={GitHub} alt="CSS" />
             <p>GitHub</p>
+          </div>
+          <div className="flex flex-col justify-center items-center  hover:scale-110 duration-300">
+            <img className="w-20 mx-auto mb-2" src={material} alt="CSS" />
+            <p>Material Ui</p>
+          </div>
+          <div className="flex flex-col justify-center items-center  hover:scale-110 duration-300">
+            <img className="w-20 mx-auto mb-2" src={boot} alt="CSS" />
+            <p>Bootstrap</p>
+          </div>
+          <div className="flex flex-col justify-center items-center  hover:scale-110 duration-300">
+            <img className="w-20 mx-auto mb-2" src={Tailwind} alt="CSS" />
+            <p>Tailwind</p>
           </div>
         </div>
       </div>

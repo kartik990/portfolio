@@ -4,12 +4,14 @@ import pizza from "./../assets/projects/pizzaApp.png";
 import material from "./../assets/projects/material.png";
 import hotel from "./../assets/projects/hotel.png";
 import social from "./../assets/projects/socialApp.png";
+import shell from "./../assets/projects/shell.png";
+import blockchain from "./../assets/projects/blockchain.jpg";
 
 const Work = () => {
   return (
     <div
       name="work"
-      className="w-full h-auto pb-[170px] text-gray-300 bg-[#150050] py-20"
+      className="w-full h-auto pb-[200px] text-gray-300 bg-[#150050] py-20"
     >
       <div className="m-auto max-w-[1000px] p-4 flex flex-col justify-center w-full ">
         <div className="pb-4">
@@ -39,14 +41,18 @@ const Work = () => {
                 <div className="pt-8 text-center">
                   <a
                     href="https://next-js-pizza-app-kartik990.vercel.app/"
-                    target="_blank"
                     rel="noreferrer"
+                    target="_blank"
                   >
                     <button className="text-center rounded-lg px-4 py-3 m-2 bg-[white] text-gray-700 font-bold text-lg">
                       Live
                     </button>
                   </a>
-                  <a href="/">
+                  <a
+                    href="https://github.com/kartik990/NextJs-PizzaApp"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
                     <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                       Code
                     </button>
@@ -68,15 +74,56 @@ const Work = () => {
             <div className="opacity-0 content-div group-hover:opacity-100 w-full h-ful flex justify-center items-center container rounded-lg">
               <div className="opacity-0 group-hover:opacity-100">
                 <span className="text-2xl font-bold text-white tracking-wider">
-                  Full Stack Hotel Booking App
+                  MERN Stack Hotel Booking App
                 </span>
                 <div className="pt-8 text-center">
-                  <a href="https://hotel-booking-client.onrender.com/">
+                  <a
+                    href="https://hotel-booking-client.onrender.com/"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
                     <button className="text-center rounded-lg px-4 py-3 m-2 bg-[white] text-gray-700 font-bold text-lg">
                       Live
                     </button>
                   </a>
-                  <a href="/">
+                  <a
+                    href="https://github.com/kartik990/Hotel-Booking-server"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                      Code
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Card */}
+          <div
+            className="shadow-lg shadow-[#040c16] group container rounded-lg flex justify-center items-center mx-auto"
+            style={{
+              backgroundImage: `url( ${shell} )`,
+              "background-size": `cover`,
+              "background-repeat": `no-repeat`,
+            }}
+          >
+            <div className="opacity-0 content-div group-hover:opacity-100 w-full h-ful flex justify-center items-center container rounded-lg">
+              <div className="opacity-0 group-hover:opacity-100">
+                <span className="text-2xl font-bold text-white tracking-wider">
+                  NodeJs Bash like Custom Shell
+                </span>
+
+                <div className="pt-8 text-center">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-[white] text-gray-700 font-bold text-lg cursor-not-allowed">
+                    Live
+                  </button>
+                  <a
+                    href="https://github.com/kartik990/Shell"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
                     <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                       Code
                     </button>
@@ -102,12 +149,53 @@ const Work = () => {
                 </span>
 
                 <div className="pt-8 text-center">
-                  <a href="/">
+                  <a
+                    href="https://socialize-chat-application.netlify.app/"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
                     <button className="text-center rounded-lg px-4 py-3 m-2 bg-[white] text-gray-700 font-bold text-lg">
                       Live
                     </button>
                   </a>
-                  <a href="/">
+                  <a
+                    href="https://github.com/kartik990/Chat-application"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                      Code
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Card */}
+          <div
+            className="shadow-lg shadow-[#040c16] group container rounded-lg flex justify-center items-center mx-auto"
+            style={{
+              backgroundImage: `url( ${blockchain} )`,
+              "background-size": `cover`,
+              "background-repeat": `no-repeat`,
+            }}
+          >
+            <div className="opacity-0 content-div group-hover:opacity-100 w-full h-ful flex justify-center items-center container rounded-lg">
+              <div className="opacity-0 group-hover:opacity-100">
+                <span className="text-2xl font-bold text-white tracking-wider">
+                  Web3 Retail Store
+                </span>
+
+                <div className="pt-8 text-center">
+                  <button className="text-center cursor-not-allowed rounded-lg px-4 py-3 m-2 bg-[white] text-gray-700 font-bold text-lg">
+                    Live
+                  </button>
+                  <a
+                    href="https://github.com/kartik990/Web3-Retail-store"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
                     <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                       Code
                     </button>
@@ -133,12 +221,20 @@ const Work = () => {
                 </span>
 
                 <div className="pt-8 text-center">
-                  <a href="/">
+                  <a
+                    href="https://online-coffee-house.netlify.app/"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
                     <button className="text-center rounded-lg px-4 py-3 m-2 bg-[white] text-gray-700 font-bold text-lg">
                       Live
                     </button>
                   </a>
-                  <a href="/">
+                  <a
+                    href="https://github.com/kartik990/onlince-coffee-house"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
                     <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                       Code
                     </button>
@@ -164,12 +260,20 @@ const Work = () => {
                 </span>
 
                 <div className="pt-8 text-center">
-                  <a href="/">
+                  <a
+                    href="https://admin-panel-users.netlify.app/"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
                     <button className="text-center rounded-lg px-4 py-3 m-2 bg-[white] text-gray-700 font-bold text-lg">
                       Live
                     </button>
                   </a>
-                  <a href="/">
+                  <a
+                    href="https://github.com/kartik990/admin-panel-users"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
                     <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                       Code
                     </button>

@@ -9,13 +9,17 @@ const NavBar = () => {
 
   return (
     <div
-      className={`sticky w-full h-[80px] flex justify-between p-4 items-center  bg-[#000000] text-gray-300`}
+      className={`fixed w-full h-[60px] flex justify-between p-4 items-center  bg-[#000000] text-gray-300`}
     >
       {/* logo */}
-      <div className={`w-[px] text-xl font-thin text-[#FB2576]`}>
-        <span className="text-3xl font-bold ">K</span>artik
-        <span className="text-3xl font-bold">R</span>ai
-      </div>
+      <Link to="home" smooth={true} duration={500}>
+        <div
+          className={`w-[px] text-xl font-thin text-[#FB2576] cursor-pointer`}
+        >
+          <span className="text-3xl font-bold ">K</span>artik
+          <span className="text-3xl font-bold">R</span>ai
+        </div>
+      </Link>
 
       {/* list */}
       <ul className="hidden md:flex">
@@ -102,7 +106,11 @@ const NavBar = () => {
             </a>
           </li>
           <li className="w-[160px] h-[50px] ml-[-110px] hover:ml-[0px] duration-300">
-            <a href="/">
+            <a
+              href="https://github.com/kartik990"
+              rel="noreferrer"
+              target="_blank"
+            >
               <div className="flex justify-between items-center">
                 <span>GitHub</span>
                 <FaGithub size={30} />
