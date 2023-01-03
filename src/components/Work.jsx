@@ -40,7 +40,7 @@ const Work = () => {
 
                 <div className="pt-8 text-center">
                   <a
-                    href="https://next-js-pizza-app-kartik990.vercel.app/"
+                    href="https://next-js-pizza-app-beta.vercel.app/"
                     rel="noreferrer"
                     target="_blank"
                   >
