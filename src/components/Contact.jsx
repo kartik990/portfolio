@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <div name="contact" className="w-full bg-[#150050] ">
       <div className="max-w-[1000px] mx-auto">
-        <div className="flex justify-between px-20">
+        <div className="justify-between px-20 py-10">
           <div className="pb-8 ">
             <p className="text-4xl font-bold inline border-b-4 border-pink-600 text-gray-300">
               Contact
