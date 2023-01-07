@@ -31,7 +31,7 @@ const Home = () => {
           </Link>
 
           <a
-            href="https://drive.google.com/file/d/1NrCApG0P2KgY9Nm2q7npsENnf9XaUUZI/view?usp=sharing"
+            href="https://bit.ly/kartik_rai_CV"
             rel="noreferrer"
             target="_blank"
           >

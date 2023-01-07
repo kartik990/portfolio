@@ -7,7 +7,7 @@ import ReactImg from "../assets/react.png";
 import Node from "../assets/node.png";
 import FireBase from "../assets/firebase.png";
 import GitHub from "../assets/github.png";
-import Tailwind from "../assets/tailwind.png";
+import SQL from "../assets/sql.png";
 import material from "../assets/mi.png";
 import cpp from "../assets/cpp.png";
 import boot from "../assets/bookt.png";
@@ -66,16 +66,16 @@ const Skills = () => {
             <p>GitHub</p>
           </div>
           <div className="flex flex-col justify-center items-center  hover:scale-110 duration-300">
+            <img className="w-20 mx-auto mb-2" src={SQL} alt="CSS" />
+            <p>SQL</p>
+          </div>
+          <div className="flex flex-col justify-center items-center  hover:scale-110 duration-300">
             <img className="w-20 mx-auto mb-2" src={material} alt="CSS" />
             <p>Material Ui</p>
           </div>
           <div className="flex flex-col justify-center items-center  hover:scale-110 duration-300">
             <img className="w-20 mx-auto mb-2" src={boot} alt="CSS" />
             <p>Bootstrap</p>
-          </div>
-          <div className="flex flex-col justify-center items-center  hover:scale-110 duration-300">
-            <img className="w-20 mx-auto mb-2" src={Tailwind} alt="CSS" />
-            <p>Tailwind</p>
           </div>
         </div>
       </div>
