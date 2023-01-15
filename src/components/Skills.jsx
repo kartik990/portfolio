@@ -12,6 +12,9 @@ import material from "../assets/mi.png";
 import cpp from "../assets/cpp.png";
 import boot from "../assets/bookt.png";
 import Mongo from "../assets/mongo.png";
+import sass from "../assets/sass.png";
+import nextjs from "../assets/nextjs.png";
+import figma from "../assets/figma.png";
 
 const Skills = () => {
   return (
@@ -44,9 +47,10 @@ const Skills = () => {
             <img className="w-20 mx-auto mb-2" src={cpp} alt="CSS" />
             <p>C++</p>
           </div>
+
           <div className="flex flex-col justify-center items-center  hover:scale-110 duration-300">
-            <img className="w-20 mx-auto mb-2" src={FireBase} alt="CSS" />
-            <p>Firebase</p>
+            <img className="w-20 mx-auto mb-2" src={nextjs} alt="CSS" />
+            <p>NEXTjs</p>
           </div>
           <div className="flex flex-col justify-center items-center  hover:scale-110 duration-300">
             <img className="w-20 mx-auto mb-2" src={ReactImg} alt="CSS" />
@@ -62,9 +66,10 @@ const Skills = () => {
           </div>
 
           <div className="flex flex-col justify-center items-center  hover:scale-110 duration-300">
-            <img className="w-20 mx-auto mb-2" src={GitHub} alt="CSS" />
-            <p>GitHub</p>
+            <img className="w-20 mx-auto mb-2" src={FireBase} alt="CSS" />
+            <p>Firebase</p>
           </div>
+
           <div className="flex flex-col justify-center items-center  hover:scale-110 duration-300">
             <img className="w-20 mx-auto mb-2" src={SQL} alt="CSS" />
             <p>SQL</p>
@@ -76,6 +81,18 @@ const Skills = () => {
           <div className="flex flex-col justify-center items-center  hover:scale-110 duration-300">
             <img className="w-20 mx-auto mb-2" src={boot} alt="CSS" />
             <p>Bootstrap</p>
+          </div>
+          <div className="flex flex-col justify-center items-center  hover:scale-110 duration-300">
+            <img className="w-20 mx-auto mb-2" src={GitHub} alt="CSS" />
+            <p>GitHub</p>
+          </div>
+          <div className="flex flex-col justify-center items-center  hover:scale-110 duration-300">
+            <img className="w-20 mx-auto mb-2" src={sass} alt="sass" />
+            <p>Sass</p>
+          </div>
+          <div className="flex flex-col justify-center items-center  hover:scale-110 duration-300">
+            <img className="w-20 mx-auto mb-2" src={figma} alt="CSS" />
+            <p>Figma</p>
           </div>
         </div>
       </div>
