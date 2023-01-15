@@ -12,7 +12,7 @@ const Contact = () => {
               Contact
             </p>
             <p className="text-gray-300 py-4">
-              \\ Submit the form below to talk...
+              Submit the form below to talk...
             </p>
           </div>
           <div className="flex flex-col mb-15">

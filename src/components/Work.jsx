@@ -18,7 +18,7 @@ const Work = () => {
           <p className="text-4xl font-bold inline border-b-4 border-pink-600  ">
             Work
           </p>
-          <p className="py-6">\\ Check out my some recent work</p>
+          <p className="py-6"> Check out my some recent work...</p>
         </div>
 
         {/* Projects Container */}
