@@ -30,15 +30,11 @@ const Home = () => {
             </button>
           </Link>
 
-<<<<<<< HEAD
           <a
-            href="https://drive.google.com/file/d/1qNzd4MvMm7mS44kYpZ3J2ISpkQO-qZwj/view"
+            href="https://drive.google.com/file/d/1qNzd4MvMm7mS44kYpZ3J2ISpkQO-qZwj/view?usp=sharing"
             rel="noreferrer"
             target="_blank"
           >
-=======
-          <a href="https://drive.google.com/file/d/1qNzd4MvMm7mS44kYpZ3J2ISpkQO-qZwj/view?usp=sharing" rel="noreferrer" target="_blank">
->>>>>>> 179109511177010c7585761caa446c5adde01978
             <button
               className={`flex gap-2 justify-between items-center border-2 px-6 py-3 my-2 hover:bg-pink-600 hover:border-pink-600`}
             >
