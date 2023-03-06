@@ -10,7 +10,7 @@ const Home = () => {
       <div
         className={` ml-15 max-w-[1000px] mx-auto text-white px-8 flex flex-col justify-center h-full`}
       >
-        <p className={`text-[#fb2576]`}> Hi, my name is</p>
+        <p className={`text-[#fb2576]`}>Hi, my name is</p>
         <h1 className={`text-[#ccd6f6] text-4xl sm:text-7xl font-bold`}>
           Kartik Rai
         </h1>
@@ -24,19 +24,19 @@ const Home = () => {
         <div className="flex gap-5">
           <Link to="work" smooth={true} duration={500}>
             <button
-              className={`flex gap-2 justify-between items-center border-2 px-6 py-3 my-2 hover:bg-pink-600 hover:border-pink-600`}
+              className={`flex gap-2 justify-between items-center border-2 px-6 py-3 my-2 hover:bg-pink-600  hover:border-pink-600 hover: duration-500`}
             >
               View Work <GiDirectionSign />
             </button>
           </Link>
 
           <a
-            href="https://drive.google.com/file/d/1qNzd4MvMm7mS44kYpZ3J2ISpkQO-qZwj/view?usp=sharing"
+            href="https://drive.google.com/file/d/19CJ8HKC5riL-hxAyWin0wJ7JPpvkNcYU/view?usp=sharing"
             rel="noreferrer"
             target="_blank"
           >
             <button
-              className={`flex gap-2 justify-between items-center border-2 px-6 py-3 my-2 hover:bg-pink-600 hover:border-pink-600`}
+              className={`flex gap-2 justify-between items-center border-2 px-6 py-3 my-2 hover:bg-pink-600 hover:border-pink-600 hover:duration-500 `}
             >
               Download CV <FiDownload />
             </button>

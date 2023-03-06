@@ -8,7 +8,7 @@ const Contact = () => {
       <div className="max-w-[1000px] mx-auto">
         <div className="kr:flex justify-between px-20 py-10">
           <div className="pb-8">
-            <p className="text-4xl font-bold inline border-b-4 border-pink-600 text-gray-300">
+            <p className="text-4xl font-bold inline pb-1 border-b-4 border-pink-600 text-gray-300">
               Contact
             </p>
             <p className="text-gray-300 py-4">

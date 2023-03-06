@@ -14,7 +14,7 @@ const NavBar = () => {
       {/* logo */}
       <Link to="home" smooth={true} duration={500}>
         <div
-          className={`w-[px] text-xl font-thin text-[#FB2576] cursor-pointer`}
+          className={`w-[px] text-xl font-thin text-[#FB2576] cursor-pointer `}
         >
           <span className="text-3xl font-bold ">K</span>artik
           <span className="text-3xl font-bold">R</span>ai
@@ -34,15 +34,21 @@ const NavBar = () => {
           </Link>
         </li>
         <li className={`hover:text-[#fb2576] hover:scale-125 duration-200`}>
+          <Link to="experience" smooth={true} duration={500}>
+            Experience
+          </Link>
+        </li>
+        <li className={`hover:text-[#fb2576] hover:scale-125 duration-200`}>
           <Link to="skills" smooth={true} duration={500}>
             Skills
           </Link>
         </li>
         <li className={`hover:text-[#fb2576] hover:scale-125 duration-200`}>
           <Link to="work" smooth={true} duration={500}>
-            Work
+            Projects
           </Link>
         </li>
+
         <li className={`hover:text-[#fb2576] hover:scale-125 duration-200`}>
           <Link to="contact" smooth={true} duration={500}>
             Contact

@@ -25,7 +25,7 @@ const Skills = () => {
       {/* container */}
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div>
-          <p className="text-4xl inline text-gray-300 font-bold py-2 border-b-2 border-pink-600">
+          <p className="text-4xl inline text-gray-300 font-bold pb-1 border-b-4 border-pink-600">
             Skills
           </p>
           <p className="mt-5">These are the technologies I've worked with...</p>
@@ -94,6 +94,13 @@ const Skills = () => {
             <img className="w-20 mx-auto mb-2" src={figma} alt="CSS" />
             <p>Figma</p>
           </div>
+
+          {/* {
+            tailwind
+            linux
+            etherium...
+            typescript
+          } */}
         </div>
       </div>
     </div>

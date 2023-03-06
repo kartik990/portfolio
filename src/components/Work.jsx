@@ -16,9 +16,9 @@ const Work = () => {
       <div className="m-auto max-w-[1000px] p-4 flex flex-col justify-center w-full ">
         <div className="pb-4">
           <p className="text-4xl font-bold inline border-b-4 border-pink-600  ">
-            Work
+            Projects
           </p>
-          <p className="py-6"> Check out my some recent work...</p>
+          <p className="py-6"> Check out my some of my personal projects...</p>
         </div>
 
         {/* Projects Container */}
