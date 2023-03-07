@@ -70,27 +70,37 @@ const NavBar = () => {
             : "hidden"
         }
       >
-        <li className="py-4 text-4xl">
+        <li className="py-2 text-3xl">
           <Link onClick={handleNav} to="home" smooth={true} duration={500}>
             Home
           </Link>
         </li>
-        <li className="py-4 text-4xl">
+        <li className="py-2 text-3xl">
           <Link onClick={handleNav} to="about" smooth={true} duration={500}>
             About
           </Link>
         </li>
-        <li className="py-4 text-4xl">
+        <li className="py-2 text-3xl">
+          <Link
+            onClick={handleNav}
+            to="experience"
+            smooth={true}
+            duration={500}
+          >
+            Experience
+          </Link>
+        </li>
+        <li className="py-2 text-3xl">
           <Link onClick={handleNav} to="skills" smooth={true} duration={500}>
             Skills
           </Link>
         </li>
-        <li className="py-4 text-4xl">
+        <li className="py-2 text-3xl">
           <Link onClick={handleNav} to="work" smooth={true} duration={500}>
-            Work
+            Projects
           </Link>
         </li>
-        <li className="py-4 text-4xl">
+        <li className="py-2 text-3xl">
           <Link onClick={handleNav} to="contact" smooth={true} duration={500}>
             Contact
           </Link>
@@ -98,7 +108,7 @@ const NavBar = () => {
       </ul>
 
       {/* side bar */}
-      <div className={`hidden md:flex fixed top-[35%] left-0 `}>
+      <div className={`hidden md:flex fixed top-[35%] left-0  `}>
         <ul>
           <li className="w-[160px] h-[50px] ml-[-110px] hover:ml-[0px] duration-300">
             <a
@@ -108,7 +118,7 @@ const NavBar = () => {
             >
               <div className="flex justify-between items-center">
                 Linkedin
-                <FaLinkedin size={30} />
+                <FaLinkedin size={27} />
               </div>
             </a>
           </li>
@@ -120,7 +130,7 @@ const NavBar = () => {
             >
               <div className="flex justify-between items-center">
                 <span>Instagram</span>
-                <BsInstagram size={30} />
+                <BsInstagram size={27} />
               </div>
             </a>
           </li>
@@ -132,7 +142,7 @@ const NavBar = () => {
             >
               <div className="flex justify-between items-center">
                 <span>GitHub</span>
-                <FaGithub size={30} />
+                <FaGithub size={27} />
               </div>
             </a>
           </li>
@@ -144,7 +154,7 @@ const NavBar = () => {
             >
               <div className="flex justify-between items-center">
                 <span>LeetCode</span>
-                <SiLeetcode size={30} />
+                <SiLeetcode size={27} />
               </div>
             </a>
           </li>

@@ -19,14 +19,15 @@ const Home = () => {
         </h2>
         <p className={`text-[#8892b0] py-4 max-w-[700px]`}>
           I'm a full stack developer specializing in building MERN stack
-          projects with amazing UI desgins and efficent server.{" "}
+          projects with amazing UI desgins and efficent server.
         </p>
         <div className="flex gap-5">
           <Link to="work" smooth={true} duration={500}>
             <button
-              className={`flex gap-2 justify-between items-center border-2 px-6 py-3 my-2 hover:bg-pink-600  hover:border-pink-600 hover: duration-500`}
+              className={`flex gap-2 justify-between items-center border-2 px-2 sm:px-6 py-3 my-2 hover:bg-pink-600  hover:border-pink-600 hover: duration-500`}
             >
-              View Projects <GiDirectionSign />
+              <span className="text-sm sm:text-base">View Projects</span>
+              <GiDirectionSign />
             </button>
           </Link>
 
@@ -36,9 +37,10 @@ const Home = () => {
             target="_blank"
           >
             <button
-              className={`flex gap-2 justify-between items-center border-2 px-6 py-3 my-2 hover:bg-pink-600 hover:border-pink-600 hover:duration-500 `}
+              className={`flex gap-2 justify-between items-center border-2 px-2 sm:px-6 py-3 my-2 hover:bg-pink-600 hover:border-pink-600 hover:duration-500 `}
             >
-              Download CV <FiDownload />
+              <span className="text-sm sm:text-base">Download CV</span>{" "}
+              <FiDownload />
             </button>
           </a>
         </div>
