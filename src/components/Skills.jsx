@@ -13,6 +13,7 @@ import cpp from "../assets/cpp.png";
 import boot from "../assets/bookt.png";
 import Mongo from "../assets/mongo.png";
 import sass from "../assets/sass.png";
+import tailwind from "../assets/tailwind.png";
 import nextjs from "../assets/nextjs.png";
 import figma from "../assets/figma.png";
 
@@ -89,6 +90,10 @@ const Skills = () => {
           <div className="flex flex-col justify-center items-center  hover:scale-110 duration-300">
             <img className="w-20 mx-auto mb-2" src={sass} alt="sass" />
             <p>Sass</p>
+          </div>
+          <div className="flex flex-col justify-center items-center  hover:scale-110 duration-300">
+            <img className="w-20 mx-auto mb-2" src={tailwind} alt="CSS" />
+            <p>TailWind</p>
           </div>
           <div className="flex flex-col justify-center items-center  hover:scale-110 duration-300">
             <img className="w-20 mx-auto mb-2" src={figma} alt="CSS" />
