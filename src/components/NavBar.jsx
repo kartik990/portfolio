@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
+import { BsInstagram } from "react-icons/bs";
 import { Link } from "react-scroll";
 
 const NavBar = () => {
@@ -113,6 +114,18 @@ const NavBar = () => {
           </li>
           <li className="w-[160px] h-[50px] ml-[-110px] hover:ml-[0px] duration-300">
             <a
+              href="https://www.instagram.com/kartik____r/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <div className="flex justify-between items-center">
+                <span>Instagram</span>
+                <BsInstagram size={30} />
+              </div>
+            </a>
+          </li>
+          <li className="w-[160px] h-[50px] ml-[-110px] hover:ml-[0px] duration-300">
+            <a
               href="https://github.com/kartik990"
               rel="noreferrer"
               target="_blank"
@@ -133,11 +146,6 @@ const NavBar = () => {
                 <span>LeetCode</span>
                 <SiLeetcode size={30} />
               </div>
-            </a>
-          </li>
-          <li className="w-[160px] h-[60px]">
-            <a href="/">
-              <div className="flex justify-between items-center"></div>
             </a>
           </li>
           <li className="w-[160px] h-[60px]">
