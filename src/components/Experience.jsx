@@ -36,7 +36,7 @@ const Experience = () => {
                   <p className="font-extrabold text-2xl mb-0">Daphnis Labs</p>
                 </a>
                 <p className="font-bold text-lg text-gray-400 mb-2">
-                  Front-end Developer Intern | Jan 2023 - Mar 2023
+                  Front-end Developer Intern | Feb 2023 - Mar 2023
                 </p>
                 <p className="w-full max-w-[800px] font-medium text-left text-slate-400">
                   <ul className="list-disc list-inside">
