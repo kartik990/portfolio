@@ -81,6 +81,16 @@ const Experience = () => {
                     <li>
                       Organised events and interviews to understand not so
                       common life of common people of gwalior.
+                      <br />
+                      <a
+                        href="https://medium.com/@rotaractiiitm"
+                        rel="noreferrer"
+                        target="_blank"
+                      >
+                        <span className="underline font-bold italic">
+                          Medium Link
+                        </span>
+                      </a>
                     </li>
                     <li>
                       Managed volunteers to organise interviews and blogs based
