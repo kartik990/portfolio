@@ -14,8 +14,8 @@ const Home = () => {
         <h1 className={`text-[#ccd6f6] text-4xl sm:text-7xl font-bold`}>
           Kartik Rai
         </h1>
-        <h2 className={`text-[#8892b0] text-3xl sm:text-5xl font-bold`}>
-          I'm a full stack developer.
+        <h2 className={`text-[#8892b0] text-2xl sm:text-4xl font-bold w-fit`}>
+          <div className="writer-text ">I'm a full stack developer.</div>
         </h2>
         <p className={`text-[#8892b0] py-4 max-w-[700px]`}>
           I'm a full stack developer specializing in building MERN stack
