@@ -9,7 +9,7 @@ import Experience from "./components/Experience";
 
 const App = () => {
   return (
-    <div>
+    <div className="bg-[#150050]">
       <NavBar />
       <Home />
       <About />

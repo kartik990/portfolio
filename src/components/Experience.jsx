@@ -4,10 +4,7 @@ import rotaractImg from "./../assets/rotaract.jpeg";
 
 const Experience = () => {
   return (
-    <div
-      name="experience"
-      className="w-full h-auto pt-[150px] pb-[200px] bg-[#150050] "
-    >
+    <div name="experience" className="w-full h-auto pt-[150px] pb-[200px]  ">
       <div className="max-w-[1000px] mx-auto text-gray-300">
         <div className="p-4 ">
           <p className="text-4xl pb-1 font-bold inline border-b-4 border-pink-600  ">

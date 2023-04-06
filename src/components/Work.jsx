@@ -9,10 +9,7 @@ import blockchain from "./../assets/projects/blockchain.jpg";
 
 const Work = () => {
   return (
-    <div
-      name="work"
-      className="w-full h-auto pb-[200px] text-gray-300 bg-[#150050] py-20"
-    >
+    <div name="work" className="w-full h-auto pb-[200px] text-gray-300  py-20">
       <div className="m-auto max-w-[1000px] p-4 flex flex-col justify-center w-full ">
         <div className="pb-4">
           <p className="text-4xl font-bold inline border-b-4 border-pink-600  ">
