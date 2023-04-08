@@ -118,7 +118,7 @@ const NavBar = () => {
             >
               <div className="flex justify-between items-center">
                 Linkedin
-                <FaLinkedin size={27} />
+                <FaLinkedin size={30} />
               </div>
             </a>
           </li>
@@ -130,7 +130,7 @@ const NavBar = () => {
             >
               <div className="flex justify-between items-center">
                 <span>Instagram</span>
-                <BsInstagram size={27} />
+                <BsInstagram size={30} />
               </div>
             </a>
           </li>
@@ -142,7 +142,7 @@ const NavBar = () => {
             >
               <div className="flex justify-between items-center">
                 <span>GitHub</span>
-                <FaGithub size={27} />
+                <FaGithub size={30} />
               </div>
             </a>
           </li>
@@ -154,7 +154,7 @@ const NavBar = () => {
             >
               <div className="flex justify-between items-center">
                 <span>LeetCode</span>
-                <SiLeetcode size={27} />
+                <SiLeetcode size={30} />
               </div>
             </a>
           </li>
