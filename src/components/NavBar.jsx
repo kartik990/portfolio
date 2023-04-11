@@ -66,21 +66,21 @@ const NavBar = () => {
       <ul
         className={
           nav
-            ? `absolute top-0 left-0 w-full h-screen pb-8 flex flex-col justify-around items-center bg-[#000000] md:hidden`
+            ? `absolute top-0 left-0 w-full h-screen pb-8 flex flex-col justify-center items-center bg-[#000000] md:hidden`
             : "hidden"
         }
       >
-        <li className="py-1 text-3xl">
+        <li className="py-2 text-3xl">
           <Link onClick={handleNav} to="home" smooth={true} duration={500}>
             Home
           </Link>
         </li>
-        <li className="py-1 text-3xl">
+        <li className="py-2 text-3xl">
           <Link onClick={handleNav} to="about" smooth={true} duration={500}>
             About
           </Link>
         </li>
-        <li className="py-1 text-3xl">
+        <li className="py-2 text-3xl">
           <Link
             onClick={handleNav}
             to="experience"
@@ -90,17 +90,17 @@ const NavBar = () => {
             Experience
           </Link>
         </li>
-        <li className="py-1 text-3xl">
+        <li className="py-2 text-3xl">
           <Link onClick={handleNav} to="skills" smooth={true} duration={500}>
             Skills
           </Link>
         </li>
-        <li className="py-1 text-3xl">
+        <li className="py-2 text-3xl">
           <Link onClick={handleNav} to="work" smooth={true} duration={500}>
             Projects
           </Link>
         </li>
-        <li className="py-1 text-3xl">
+        <li className="py-2 text-3xl">
           <Link onClick={handleNav} to="contact" smooth={true} duration={500}>
             Contact
           </Link>
