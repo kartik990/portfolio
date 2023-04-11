@@ -6,10 +6,10 @@ import { Link } from "react-scroll";
 const Home = () => {
   return (
     // bg-[#150050]
-    <div name="home" className={`pl-10 pt-20 w-1-full h-screen  `}>
+    <div name="home" className={`pl-2 sm:pl-10 pt-20 w-1-full h-screen`}>
       {/* container */}
       <div
-        className={` ml-15 max-w-[1000px] mx-auto text-white px-8 flex flex-col justify-center h-full`}
+        className={`ml-15 max-w-[1000px] mx-auto text-white px-8 flex flex-col justify-center h-full`}
       >
         <p className={`text-[#fb2576]`}>Hi, my name is</p>
         <h1 className={`text-[#ccd6f6] text-4xl sm:text-7xl font-bold`}>

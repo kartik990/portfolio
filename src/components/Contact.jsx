@@ -17,14 +17,33 @@ const Contact = () => {
           </div>
           <div className="flex flex-col mb-15">
             <div className="mb-5 flex justify-start items-center">
-              <GiMailbox color="#FB2576" size={30} />
-              <span className="text-xl md:text-2xl font-bold text-gray-300 ml-5">
+              <GiMailbox
+                color="#FB2576"
+                size={30}
+                className="hidden sm:block"
+              />
+              <GiMailbox
+                color="#FB2576"
+                size={20}
+                className="block sm:hidden overflow-visible"
+              />
+              <span className="text-xl md:text-2xl font-bold text-gray-300 ml-3">
                 rai.kartik99@gmail.com
               </span>
             </div>
             <div className="flex justify-start items-center">
-              <BsFillTelephoneFill color="#FB2576" size={20} />
-              <span className="text-xl md:text-2xl font-bold text-gray-300 ml-5">
+              <BsFillTelephoneFill
+                color="#FB2576"
+                size={20}
+                className="hidden sm:block
+              "
+              />
+              <BsFillTelephoneFill
+                color="#FB2576"
+                size={15}
+                className="block sm:hidden"
+              />
+              <span className="text-xl md:text-2xl font-bold text-gray-300 ml-3">
                 +91 7860593626
               </span>
             </div>
@@ -59,8 +78,8 @@ const Contact = () => {
           </button>
         </form>
         <div className="flex justify-center align-middle md:hidden">
-          <ul className="flex">
-            <li className="w-[80px] h-[50px]">
+          <ul className="flex justify-evenly">
+            <li className="w-[65px] h-[50px]">
               <a
                 href="https://www.linkedin.com/in/kartikrai007/"
                 rel="noreferrer"
@@ -71,7 +90,7 @@ const Contact = () => {
                 </div>
               </a>
             </li>
-            <li className="w-[80px] h-[50px]">
+            <li className="w-[65px] h-[50px]">
               <a
                 href="https://www.instagram.com/kartik____r/"
                 rel="noreferrer"
@@ -82,7 +101,7 @@ const Contact = () => {
                 </div>
               </a>
             </li>
-            <li className="w-[80px] h-[50px]">
+            <li className="w-[65px] h-[50px]">
               <a
                 href="https://github.com/kartik990"
                 rel="noreferrer"
@@ -93,7 +112,7 @@ const Contact = () => {
                 </div>
               </a>
             </li>
-            <li className="w-[80px] h-[50px]">
+            <li className="w-[65px] h-[50px]">
               <a
                 href="https://leetcode.com/kartik____r/"
                 rel="noreferrer"
