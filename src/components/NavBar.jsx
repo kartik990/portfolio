@@ -58,7 +58,7 @@ const NavBar = () => {
       </ul>
 
       {/* hamburger */}
-      <div onClick={handleNav} className="md:hidden z-10 cursor-pointer">
+      <div onClick={handleNav} className="md:hidden z-10 cursor-pointer mr-y">
         {!nav ? <FaBars /> : <FaTimes />}
       </div>
 
@@ -70,17 +70,17 @@ const NavBar = () => {
             : "hidden"
         }
       >
-        <li className="py-2 text-3xl">
+        <li className="py-2 text-2xl">
           <Link onClick={handleNav} to="home" smooth={true} duration={500}>
             Home
           </Link>
         </li>
-        <li className="py-2 text-3xl">
+        <li className="py-2 text-2xl">
           <Link onClick={handleNav} to="about" smooth={true} duration={500}>
             About
           </Link>
         </li>
-        <li className="py-2 text-3xl">
+        <li className="py-2 text-2xl">
           <Link
             onClick={handleNav}
             to="experience"
@@ -90,17 +90,17 @@ const NavBar = () => {
             Experience
           </Link>
         </li>
-        <li className="py-2 text-3xl">
+        <li className="py-2 text-2xl">
           <Link onClick={handleNav} to="skills" smooth={true} duration={500}>
             Skills
           </Link>
         </li>
-        <li className="py-2 text-3xl">
+        <li className="py-2 text-2xl">
           <Link onClick={handleNav} to="work" smooth={true} duration={500}>
             Projects
           </Link>
         </li>
-        <li className="py-2 text-3xl">
+        <li className="py-2 text-2xl">
           <Link onClick={handleNav} to="contact" smooth={true} duration={500}>
             Contact
           </Link>
