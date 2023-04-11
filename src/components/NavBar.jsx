@@ -66,7 +66,7 @@ const NavBar = () => {
       <ul
         className={
           nav
-            ? `absolute top-0 left-0 w-full h-screen flex flex-col justify-around items-center bg-[#000000] md:hidden`
+            ? `absolute top-0 left-0 w-full h-screen pb-6 flex flex-col justify-around items-center bg-[#000000] md:hidden`
             : "hidden"
         }
       >
