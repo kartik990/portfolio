@@ -13,7 +13,7 @@ const Achievements = () => {
           <div className="flex flex-col gap-12  mt-10">
             <div className="w-auto max-w-[1000px] flex gap-5">
               <a
-                href="https://www.daphnislabs.com/"
+                href="https://leetcode.com/kartik____r/"
                 rel="noreferrer"
                 target="_blank"
               >
@@ -25,7 +25,7 @@ const Achievements = () => {
               </a>
               <div>
                 <a
-                  href="https://www.daphnislabs.com/"
+                  href="https://leetcode.com/kartik____r/"
                   rel="noreferrer"
                   target="_blank"
                 >
