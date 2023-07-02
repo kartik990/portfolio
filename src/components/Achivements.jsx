@@ -1,6 +1,5 @@
 import React from "react";
 import Leetcode from "./../assets/leetcode.png";
-import rotaractImg from "./../assets/rotaract.jpeg";
 
 const Achievements = () => {
   return (
