@@ -6,6 +6,7 @@ import NavBar from "./components/NavBar";
 import Skills from "./components/Skills";
 import Work from "./components/Work";
 import Experience from "./components/Experience";
+import Achievements from "./components/Achivements";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <Experience />
       <Skills />
       <Work />
+      <Achievements />
       <Contact />
     </div>
   );
