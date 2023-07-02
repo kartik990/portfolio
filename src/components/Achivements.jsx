@@ -3,11 +3,11 @@ import Leetcode from "./../assets/leetcode.png";
 
 const Achievements = () => {
   return (
-    <div name="experience" className="w-full h-auto pt-[150px] pb-[200px]  ">
+    <div name="achievement" className="w-full h-auto pt-[150px] pb-[200px]  ">
       <div className="max-w-[1000px] mx-auto text-gray-300">
         <div className="p-4 ">
           <p className="text-4xl pb-1 font-bold inline border-b-4 border-pink-600  ">
-            Achievements
+            Accomplishment
           </p>
           <div className="flex flex-col gap-12  mt-10">
             <div className="w-auto max-w-[1000px] flex gap-5">
