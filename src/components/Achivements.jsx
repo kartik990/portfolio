@@ -53,11 +53,11 @@ const Achievements = () => {
                       DSA questions
                     </li>
                     <li>
-                      Won{" "}
+                      Solved{" "}
                       <span className="font-bold text-xl text-gray-100 mb-2">
-                        SQL50 Badge
+                        50+ 
                       </span>{" "}
-                      on leetcode
+                      SQL Questions
                     </li>
                   </ul>
                 </p>
