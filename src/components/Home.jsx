@@ -33,7 +33,7 @@ const Home = () => {
           </Link>
 
           <a
-            href="https://drive.google.com/file/d/1ooqWAXoszP12lDw561t8OY-6yXu-1YuI/view?usp=sharing"
+            href="https://drive.google.com/file/d/1Mb_2NBwcXBbfWBEffvX79tPp1DGlnI7q/view?usp=sharing"
             rel="noreferrer"
             target="_blank"
           >
