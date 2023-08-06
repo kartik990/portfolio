@@ -18,9 +18,9 @@ const About = () => {
           <div>
             <p>
               I am passionate about building excellent software that improves
-              the lives of thosea around me. I specialize in creating software
-              for cilents ranging from individuals to small-businesses all the
-              way to large enterprise corporations. What would you like to do if
+              the lives of those around me. I specialize in creating software
+              ranging from individuals to small-businesses all the way to
+              working in large enterprise projects. What would you like to do if
               you also had a software expert at your finger tips?
             </p>
           </div>
