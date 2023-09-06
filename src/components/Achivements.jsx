@@ -5,7 +5,7 @@ const Achievements = () => {
   return (
     <div name="achievement" className="w-full h-auto pt-[150px] pb-[200px]  ">
       <div className="max-w-[1000px] mx-auto text-gray-300">
-        <div className="p-4 ">
+        <div className="p-6">
           <p className="text-4xl pb-1 font-bold inline border-b-4 border-pink-600  ">
             Accomplishment
           </p>
@@ -55,7 +55,7 @@ const Achievements = () => {
                     <li>
                       Solved{" "}
                       <span className="font-bold text-xl text-gray-100 mb-2">
-                        50+ 
+                        50+
                       </span>{" "}
                       SQL Questions
                     </li>

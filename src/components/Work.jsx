@@ -64,7 +64,7 @@ const Work = () => {
             className="shadow-lg shadow-[#040c16] group container rounded-lg flex justify-center items-center mx-auto"
             style={{
               backgroundImage: `url( ${hotel} )`,
-              "background-size": `contain`,
+              "background-size": `cover`,
               "background-repeat": `no-repeat`,
             }}
           >

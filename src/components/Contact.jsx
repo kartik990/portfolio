@@ -6,9 +6,9 @@ import { SiLeetcode } from "react-icons/si";
 
 const Contact = () => {
   return (
-    <div name="contact" className="w-full  ">
-      <div className="max-w-[1000px] mx-auto">
-        <div className="kr:flex justify-between px-20 py-10">
+    <div name="contact" className="w-full">
+      <div className="max-w-[1000px] mx-auto pb-10">
+        <div className="kr:flex justify-between px-10 py-10">
           <div className="pb-8">
             <p className="text-4xl font-bold inline pb-1 border-b-4 border-pink-600 text-gray-300">
               Contact
@@ -53,7 +53,7 @@ const Contact = () => {
         <form
           method="POST"
           action="https://getform.io/f/aa63dac9-998f-4617-a8e3-8ea8ce901b22"
-          className="flex flex-col px-20"
+          className="flex flex-col px-10"
         >
           <input
             className="bg-[#ccd6f6] p-2"
@@ -77,6 +77,7 @@ const Contact = () => {
             Let's Collaborate
           </button>
         </form>
+
         <div className="flex justify-center align-middle md:hidden">
           <ul className="flex justify-evenly">
             <li className="w-[65px] h-[50px]">
