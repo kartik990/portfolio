@@ -57,10 +57,6 @@ const Skills = () => {
             <p>JavaScript</p>
           </div>
           <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
-            <img className="w-20 mx-auto mb-2" src={ts} alt="CSS" />
-            <p>TypeScript</p>
-          </div>{" "}
-          <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
             <img className="w-20 mx-auto mb-2" src={python} alt="CSS" />
             <p>Python</p>
           </div>
@@ -68,6 +64,10 @@ const Skills = () => {
             <img className="w-20 mx-auto mb-2" src={cpp} alt="cpp" />
             <p>C++</p>
           </div>
+          <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
+            <img className="w-20 mx-auto mb-2" src={ts} alt="CSS" />
+            <p>TypeScript</p>
+          </div>{" "}
           <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
             <img className="w-20 mx-auto mb-2" src={mysql} alt="CSS" />
             <p>MySQL</p>
