@@ -5,6 +5,7 @@ import material from "./../assets/projects/material.png";
 import hotel from "./../assets/projects/hotel.png";
 import social from "./../assets/projects/socialApp.png";
 import shell from "./../assets/projects/shell.png";
+import rtcapp from "./../assets/projects/rtcapp.png";
 import blockchain from "./../assets/projects/blockchain.jpg";
 
 const Work = () => {
@@ -20,6 +21,49 @@ const Work = () => {
 
         {/* Projects Container */}
         <div className="grid sm:grid-cols-2 md:grid-col-3 gap-7">
+          {/* Card */}
+          <div
+            className="shadow-lg shadow-[#040c16] group container rounded-lg flex justify-center items-center mx-auto"
+            style={{
+              backgroundImage: `url( ${rtcapp})`,
+              "background-size": `cover`,
+              "background-repeat": `no-repeat`,
+            }}
+          >
+            <div className="opacity-0 content-div group-hover:opacity-100 w-full h-ful flex justify-center items-center container rounded-lg">
+              <div className="opacity-0 group-hover:opacity-100">
+                <span className="text-2xl font-bold text-white tracking-wider ">
+                  Amigos WebRTC app
+                </span>
+
+                <div className="pt-8 text-center">
+                  <a href="#" rel="noreferrer" target="_blank">
+                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-[white] text-gray-700 font-bold text-lg cursor-not-allowed">
+                      Live
+                    </button>
+                  </a>
+                  <a
+                    href="https://github.com/kartik990/AmigosClient"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                      Code client
+                    </button>
+                  </a>
+                  <a
+                    href="https://github.com/kartik990/AmigosServer"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                      Code server
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
           {/* Card */}
           <div
             className="shadow-lg shadow-[#040c16] group container rounded-lg flex justify-center items-center mx-auto"
@@ -110,39 +154,6 @@ const Work = () => {
           <div
             className="shadow-lg shadow-[#040c16] group container rounded-lg flex justify-center items-center mx-auto"
             style={{
-              backgroundImage: `url( ${shell} )`,
-              "background-size": `cover`,
-              "background-repeat": `no-repeat`,
-            }}
-          >
-            <div className="opacity-0 content-div group-hover:opacity-100 w-full h-ful flex justify-center items-center container rounded-lg">
-              <div className="opacity-0 group-hover:opacity-100">
-                <span className="text-2xl font-bold text-white tracking-wider">
-                  NodeJs Bash like Custom Shell
-                </span>
-
-                <div className="pt-8 text-center">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-[white] text-gray-700 font-bold text-lg cursor-not-allowed">
-                    Live
-                  </button>
-                  <a
-                    href="https://github.com/kartik990/Shell"
-                    rel="noreferrer"
-                    target="_blank"
-                  >
-                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                      Code
-                    </button>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          {/* Card */}
-          <div
-            className="shadow-lg shadow-[#040c16] group container rounded-lg flex justify-center items-center mx-auto"
-            style={{
               backgroundImage: `url( ${social} )`,
               "background-size": `cover`,
               "background-repeat": `no-repeat`,
@@ -166,6 +177,39 @@ const Work = () => {
                   </a>
                   <a
                     href="https://github.com/kartik990/Chat-application"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                      Code
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Card */}
+          <div
+            className="shadow-lg shadow-[#040c16] group container rounded-lg flex justify-center items-center mx-auto"
+            style={{
+              backgroundImage: `url( ${shell} )`,
+              "background-size": `cover`,
+              "background-repeat": `no-repeat`,
+            }}
+          >
+            <div className="opacity-0 content-div group-hover:opacity-100 w-full h-ful flex justify-center items-center container rounded-lg">
+              <div className="opacity-0 group-hover:opacity-100">
+                <span className="text-2xl font-bold text-white tracking-wider">
+                  NodeJs Bash like Custom Shell
+                </span>
+
+                <div className="pt-8 text-center">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-[white] text-gray-700 font-bold text-lg cursor-not-allowed">
+                    Live
+                  </button>
+                  <a
+                    href="https://github.com/kartik990/Shell"
                     rel="noreferrer"
                     target="_blank"
                   >
