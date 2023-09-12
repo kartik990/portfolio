@@ -17,6 +17,7 @@ import tailwind from "../assets/tailwind.png";
 import nextjs from "../assets/nextjs.png";
 import figma from "../assets/figma.png";
 import linux from "../assets/linux.png";
+// import postman from "../assets/postman.png";
 import express from "../assets/express.png";
 import mysql from "../assets/mysql.png";
 import docker from "../assets/docker.png";
@@ -148,6 +149,10 @@ const Skills = () => {
             <img className="w-20 mx-auto mb-2" src={vercel} alt="CSS" />
             <p>Vercel</p>
           </div>{" "}
+          {/* <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
+            <img className="w-20 mx-auto mb-2" src={postman} alt="CSS" />
+            <p>Postman</p>
+          </div>{" "} */}
           <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
             <img className="w-20 mx-auto mb-2" src={GitHub} alt="CSS" />
             <p>GitHub</p>
