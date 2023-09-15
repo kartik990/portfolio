@@ -8,14 +8,16 @@ const Home = () => {
     // bg-[#150050]
     <div
       name="home"
-      className={`pl-2 sm:pl-10 pt-36 mb-20 pb-20 w-1-full h-screen`}
+      className={`pl-2 sm:pl-10 pt-44 mb-20 pb-20 w-1-full h-screen`}
     >
       {/* container */}
       <div
         className={`ml-15 max-w-[1000px] mx-auto text-white px-8 flex flex-col justify-center h-full`}
       >
         <p className={`text-[#fb2576]`}>Hi, my name is</p>
-        <h1 className={`text-[#ccd6f6] text-5xl sm:text-7xl font-bold`}>
+        <h1
+          className={`text-[#ccd6f6] text-5xl sm:text-7xl font-bold mx-[-4px]`}
+        >
           Kartik Rai
         </h1>
         <h2 className={`text-[#8892b0] text-xl sm:text-4xl font-bold w-fit`}>
