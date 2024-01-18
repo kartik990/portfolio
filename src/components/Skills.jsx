@@ -17,7 +17,7 @@ import tailwind from "../assets/tailwind.png";
 import nextjs from "../assets/nextjs.png";
 import figma from "../assets/figma.png";
 import linux from "../assets/linux.png";
-// import postman from "../assets/postman.png";
+import postman from "../assets/postman.png";
 import express from "../assets/express.png";
 import mysql from "../assets/mysql.png";
 import docker from "../assets/docker.png";
@@ -26,6 +26,8 @@ import redux from "../assets/redux.png";
 import socket from "../assets/socket.png";
 import webRTC from "../assets/webRTC.png";
 import ts from "../assets/ts.png";
+import graphql from "../assets/graphql.png";
+import postgre from "../assets/postgre.png";
 import python from "../assets/python.webp";
 import netlify from "../assets/netlify.png";
 
@@ -149,10 +151,18 @@ const Skills = () => {
             <img className="w-20 mx-auto mb-2" src={vercel} alt="CSS" />
             <p>Vercel</p>
           </div>{" "}
-          {/* <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
+          <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
             <img className="w-20 mx-auto mb-2" src={postman} alt="CSS" />
             <p>Postman</p>
-          </div>{" "} */}
+          </div>
+          <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
+            <img className="w-20 mx-auto mb-2" src={[postgre]} alt="CSS" />
+            <p>Postgre</p>
+          </div>
+          <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
+            <img className="w-20 mx-auto mb-2" src={graphql} alt="CSS" />
+            <p>Graphql</p>
+          </div>
           <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
             <img className="w-20 mx-auto mb-2" src={GitHub} alt="CSS" />
             <p>GitHub</p>

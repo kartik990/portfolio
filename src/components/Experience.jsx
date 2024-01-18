@@ -1,5 +1,6 @@
 import React from "react";
 import daphnisImg from "./../assets/daphnis.jpeg";
+import globeia from "./../assets/globeia.png";
 import rotaractImg from "./../assets/rotaract.jpeg";
 
 const Experience = () => {
@@ -12,6 +13,48 @@ const Experience = () => {
           </p>
           <p className="pt-4 mb-10">Past positions and work experience...</p>
           <div className="flex flex-col gap-12 px-4 mt-8">
+            <div className="w-auto max-w-[1000px] flex gap-5">
+              <a
+                href="https://www.globeia.com/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <img
+                  className="w-[150px] mx-auto mb-2 rounded-md"
+                  src={globeia}
+                  alt="daphnisLabs"
+                />
+              </a>
+              <div>
+                <a
+                  href="https://www.globeia.com/"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  <p className="font-extrabold text-2xl mb-0">Globeia Inc.</p>
+                </a>
+                <p className="font-bold text-lg text-gray-400 mb-2 flex">
+                  Full Stack Developer Intern | Oct 2023 - Jan 2024 |
+                </p>
+                <p className="w-full max-w-[800px] font-medium text-left text-slate-400">
+                  <ul className="list-disc list-inside">
+                    <li>
+                      Implemented Technologies: Next js, React js, Javascript,
+                      Typescript, Styled Components, CSS, applications, Material
+                      UI , Strapi.
+                    </li>
+                    <li>
+                      Integrated Strapi into Globeia website for dynamic content
+                      updates.
+                    </li>
+                    <li>
+                      Build portal UI from scratch using radixJs and Tailwind
+                      CSS.
+                    </li>
+                  </ul>
+                </p>
+              </div>
+            </div>
             <div className="w-auto max-w-[1000px] flex gap-5">
               <a
                 href="https://www.daphnislabs.com/"
@@ -34,7 +77,7 @@ const Experience = () => {
                 </a>
                 <p className="font-bold text-lg text-gray-400 mb-2 flex">
                   Front-end Developer Intern | Jan 2023 - Mar 2023 |
-{/*                   <a
+                  {/*                   <a
                     href="https://drive.google.com/file/d/1WrD3WY5NOPFn0WSV4PpphSdnfdx4uWHS/view"
                     rel="noreferrer"
                     target="_blank"
