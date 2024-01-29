@@ -55,11 +55,11 @@ const Work = () => {
                 <div className="text-2xl font-bold text-white tracking-wider">
                   Insights
                 </div>
-                <div className="text-base font-medium text-white ">
+                <div className="hidden sm:block text-base font-medium text-white ">
                   An Insight sharing full stack application build using:
                 </div>
                 <div className="flex flex-col gap-3 w-auto h-full">
-                  <div className="flex gap-2 my-4 flex-wrap">
+                  <div className="flex gap-2 my-2 sm:my-4 flex-wrap">
                     <img className="w-12 h-12" src={nextjs} alt="CSS" />
                     <img className="w-12 h-12" src={graphql} alt="CSS" />
                     <img className="w-12 h-12" src={typeorm} alt="CSS" />
@@ -110,7 +110,7 @@ const Work = () => {
                   application build using:
                 </div>
                 <div className="flex flex-col gap-3 w-auto h-full">
-                  <div className="flex gap-2 my-4 flex-wrap">
+                  <div className="flex gap-2 my-2 sm:my-4  flex-wrap">
                     <img className="w-12 h-12" src={ReactImg} alt="CSS" />
                     <img className="w-12 h-12" src={webRTC} alt="CSS" />
                     <img className="w-12 h-12" src={socket} alt="CSS" />
