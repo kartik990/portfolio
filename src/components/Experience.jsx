@@ -1,6 +1,6 @@
 import React from "react";
 import daphnisImg from "./../assets/daphnis.jpeg";
-import globeia from "./../assets/globeia.png";
+import globeia from "./../assets/globeia.jpeg";
 import rotaractImg from "./../assets/rotaract.jpeg";
 
 const Experience = () => {
@@ -20,7 +20,7 @@ const Experience = () => {
                 target="_blank"
               >
                 <img
-                  className="w-[150px] mx-auto mb-2 rounded-md"
+                  className="w-[160px] mx-auto mb-2 rounded-md"
                   src={globeia}
                   alt="daphnisLabs"
                 />
@@ -48,8 +48,13 @@ const Experience = () => {
                       updates.
                     </li>
                     <li>
-                      Build portal UI from scratch using radixJs and Tailwind
-                      CSS.
+                      Revamped and fixed the UI of 10+ web pages of the project,
+                      significantly improving the SEO score.
+                    </li>
+                    <li>
+                      {" "}
+                      Build portal UI using radixUI and assisted in building
+                      forms services using formik and react-query.{" "}
                     </li>
                   </ul>
                 </p>
@@ -62,7 +67,7 @@ const Experience = () => {
                 target="_blank"
               >
                 <img
-                  className="w-[145px] mx-auto mb-2 rounded-md"
+                  className="w-[160px] mx-auto mb-2 rounded-md"
                   src={daphnisImg}
                   alt="daphnisLabs"
                 />
@@ -88,13 +93,17 @@ const Experience = () => {
                 <p className="w-full max-w-[800px] font-medium text-left text-slate-400">
                   <ul className="list-disc list-inside">
                     <li>
-                      Worked on client-based large-scale projects like
-                      E-commerce, warehouse, Booking applications etc.
+                      Assisted in developing multiple client-based projects,
+                      including E-commerce, warehouse, and booking applications,
+                      by designing and developing reusable UI components using
+                      Next.js, React, Redux, and Tailwind CSS.
                     </li>
                     <li>
-                      Learning and working on the latest frontend technologies
-                      like: React.js, Redux, Tailwind CSS, Next.js, Node.js, and
-                      MongoDB.
+                      Developed various UI Elements using React.js, Next.js, and
+                      Tailwind for a better user experience.
+                    </li>
+                    <li>
+                      Build custom admin panels tailored to client requirements.
                     </li>
                   </ul>
                 </p>
@@ -107,7 +116,7 @@ const Experience = () => {
                 target="_blank"
               >
                 <img
-                  className="w-[145px] mx-auto mb-2 rounded-md"
+                  className="w-[160px] mx-auto mb-2 rounded-md"
                   src={rotaractImg}
                   alt="daphnisLabs"
                 />
@@ -121,13 +130,13 @@ const Experience = () => {
                   <p className="font-extrabold text-2xl mb-0">Rotaract</p>
                 </a>
                 <p className="font-bold text-lg text-gray-400 mb-2">
-                  Head of Humans of Gwaliors | Aug 2021 - Mar 2022
+                  Head of Humans of Gwalior | Aug 2021 - Mar 2022
                 </p>
                 <p className="w-auto max-w-[800px] font-medium text-left text-slate-400">
                   <ul className="list-disc list-inside">
                     <li>
                       Organised events and interviews to understand not so
-                      common life of common people of gwalior.
+                      common life of common people of Gwalior.
                       <br />
                       <a
                         href="https://medium.com/@rotaractiiitm"

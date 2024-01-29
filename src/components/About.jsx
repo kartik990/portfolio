@@ -17,11 +17,11 @@ const About = () => {
           </div>
           <div>
             <p>
-              I am passionate about building excellent software that improves
-              the lives of those around me. I specialize in creating software
-              ranging from individuals to small-businesses all the way to
-              working in large enterprise projects. What would you like to do if
-              you also had a software expert at your finger tips?
+              I am passionate about building applications that improves the
+              lives of people. Highly skilled and motivated software development
+              professional with some good experience in frontend development.
+              Strong expertise in building intuitive user interfaces using
+              modern web technologies like React, Next.js, and JavaScript.
             </p>
           </div>
         </div>

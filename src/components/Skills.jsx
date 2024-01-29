@@ -27,9 +27,13 @@ import socket from "../assets/socket.png";
 import webRTC from "../assets/webRTC.png";
 import ts from "../assets/ts.png";
 import graphql from "../assets/graphql.png";
-import postgre from "../assets/postgre.png";
-import python from "../assets/python.webp";
+import postgre from "../assets/postgre.webp";
 import netlify from "../assets/netlify.png";
+import python from "../assets/python.webp";
+import apollo from "../assets/apollo.png";
+import typeorm from "../assets/typeorm.png";
+import strapi from "../assets/strapi.jpg";
+import redis from "../assets/redis.png";
 
 const Skills = () => {
   return (
@@ -42,7 +46,7 @@ const Skills = () => {
           </p>
           <p className="mt-5">These are the technologies I've worked with...</p>
         </div>
-        <div className="w-full grid grid-cols-4 sm:grid-cols-7 gap-6 text-center py-8">
+        <div className="w-full grid grid-cols-4 sm:grid-cols-8 gap-6 text-center py-8">
           <div className="flex flex-col justify-between items-center hover:scale-110 duration-300">
             <img className="w-20 mx-auto mb-2" src={HTML} alt="HTML" />
             <p>HTML</p>
@@ -60,6 +64,10 @@ const Skills = () => {
             <p>JavaScript</p>
           </div>
           <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
+            <img className="w-20 mx-auto mb-2" src={ts} alt="CSS" />
+            <p>TypeScript</p>
+          </div>
+          <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
             <img className="w-20 mx-auto mb-2" src={python} alt="CSS" />
             <p>Python</p>
           </div>
@@ -68,13 +76,13 @@ const Skills = () => {
             <p>C++</p>
           </div>
           <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
-            <img className="w-20 mx-auto mb-2" src={ts} alt="CSS" />
-            <p>TypeScript</p>
-          </div>{" "}
+            <img className="w-20 mx-auto mb-2" src={FireBase} alt="FireBase" />
+            <p>Firebase</p>
+          </div>
           <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
-            <img className="w-20 mx-auto mb-2" src={mysql} alt="CSS" />
-            <p>MySQL</p>
-          </div>{" "}
+            <img className="w-20 mx-auto mb-2" src={strapi} alt="CSS" />
+            <p>Strapi</p>
+          </div>
           <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
             <img className="w-20 mx-auto mb-2" src={nextjs} alt="nextjs" />
             <p>NEXTjs</p>
@@ -100,8 +108,12 @@ const Skills = () => {
             <p>MongoDB</p>
           </div>
           <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
-            <img className="w-20 mx-auto mb-2" src={FireBase} alt="FireBase" />
-            <p>Firebase</p>
+            <img className="w-20 mx-auto mb-2" src={postman} alt="CSS" />
+            <p>Postman</p>
+          </div>
+          <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
+            <img className="w-20 mx-auto mb-2" src={git} alt="CSS" />
+            <p>Git</p>
           </div>
           <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
             <img
@@ -128,20 +140,12 @@ const Skills = () => {
             <p>Figma</p>
           </div>
           <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
-            <img className="w-20 mx-auto mb-2" src={git} alt="CSS" />
-            <p>Git</p>
-          </div>
-          <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
             <img
-              className="w-20 mx-auto mb-2 self-center"
+              className="w-20 mx-auto mb-2 self-center rounded-md"
               src={linux}
               alt="CSS"
             />
             <p>Linux</p>
-          </div>{" "}
-          <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
-            <img className="w-20 mx-auto mb-2" src={docker} alt="CSS" />
-            <p>Docker</p>
           </div>{" "}
           <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
             <img className="w-20 mx-auto mb-2" src={netlify} alt="CSS" />
@@ -152,21 +156,41 @@ const Skills = () => {
             <p>Vercel</p>
           </div>{" "}
           <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
-            <img className="w-20 mx-auto mb-2" src={postman} alt="CSS" />
-            <p>Postman</p>
-          </div>
-          <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
-            <img className="w-20 mx-auto mb-2" src={[postgre]} alt="CSS" />
-            <p>Postgre</p>
-          </div>
-          <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
             <img className="w-20 mx-auto mb-2" src={graphql} alt="CSS" />
             <p>Graphql</p>
           </div>
           <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
+            <img
+              className="w-20 mx-auto mb-2 rounded-md"
+              src={apollo}
+              alt="CSS"
+            />
+            <p>Apollo Client</p>
+          </div>
+          <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
+            <img className="w-20 mx-auto mb-2" src={typeorm} alt="CSS" />
+            <p>TypeORM</p>
+          </div>
+          <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
+            <img className="w-20 mx-auto mb-2" src={postgre} alt="CSS" />
+            <p>PostgreSQL</p>
+          </div>
+          <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
+            <img className="w-20 mx-auto mb-2" src={mysql} alt="CSS" />
+            <p>MySQL</p>
+          </div>{" "}
+          <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
             <img className="w-20 mx-auto mb-2" src={GitHub} alt="CSS" />
             <p>GitHub</p>
           </div>
+          <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
+            <img className="w-20 mx-auto mb-2" src={redis} alt="CSS" />
+            <p>Redis</p>
+          </div>
+          <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
+            <img className="w-20 mx-auto mb-2" src={docker} alt="CSS" />
+            <p>Docker</p>
+          </div>{" "}
           <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
             <img className="w-20 mx-auto mb-2" src={socket} alt="CSS" />
             <p>Socket.IO</p>

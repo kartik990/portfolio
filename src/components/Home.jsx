@@ -24,8 +24,9 @@ const Home = () => {
           <div className="writer-text ">I'm a full stack developer.</div>
         </h2>
         <p className={`text-[#8892b0] py-4 max-w-[700px]`}>
-          I'm a full stack developer specializing in building MERN stack
-          projects with amazing UI desgins and efficent server.
+          I'm a full-stack developer specializing in diverse web application
+          tech stacks. My strong problem-solving skills contribute to creating
+          robust applications.
         </p>
         <div className="flex gap-5">
           <Link to="work" smooth={true} duration={500}>
@@ -38,7 +39,7 @@ const Home = () => {
           </Link>
 
           <a
-            href="https://drive.google.com/file/d/1ed8_WVoNJ4FetkzWeTh5oKAU9XsNuJaM/view?usp=sharing"
+            href="https://drive.google.com/file/d/10zSjgVOuyp1ZeSGV9I3sftfA6FPkhPn_/view?usp=sharing"
             rel="noreferrer"
             target="_blank"
           >
