@@ -1,9 +1,46 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { GiDirectionSign } from "react-icons/gi";
 import { FiDownload } from "react-icons/fi";
 import { Link } from "react-scroll";
 
 const Home = () => {
+  const [words, setWords] = useState("");
+  const phrase = "I'm a full stack developer.        ";
+
+  useEffect(() => {
+    let currentIndex = 0;
+    let tm = 4;
+
+    let typing = true;
+
+    const TypeInterval = setInterval(() => {
+      if (currentIndex <= phrase.length && typing) {
+        setWords(phrase.substring(0, currentIndex));
+        currentIndex++;
+      }
+
+      if (currentIndex === phrase.length) {
+        typing = false;
+      }
+    }, (tm * 1000) / phrase.length);
+
+    const deleteInterval = setInterval(() => {
+      if (currentIndex <= phrase.length && !typing) {
+        setWords(phrase.substring(0, currentIndex));
+        currentIndex--;
+      }
+
+      if (currentIndex === 0) {
+        typing = true;
+      }
+    }, (tm * 1000) / phrase.length);
+
+    return () => {
+      clearInterval(TypeInterval);
+      clearInterval(deleteInterval);
+    };
+  }, []);
+
   return (
     // bg-[#150050]
     <div
@@ -21,9 +58,9 @@ const Home = () => {
           Kartik Rai
         </h1>
         <h2 className={`text-[#8892b0] text-xl sm:text-4xl font-bold w-fit`}>
-          <div className="writer-text ">I'm a full stack developer.</div>
+          <div className="writer-text h-6 sm:h-10">{words}</div>
         </h2>
-        <p className={`text-[#8892b0] py-4 max-w-[700px]`}>
+        <p className={`text-[#8892b0] py-2 max-w-[700px]`}>
           I'm a full-stack developer specializing in diverse web application
           tech stacks. My strong problem-solving skills contribute to creating
           robust applications.
