@@ -2,6 +2,7 @@ import React from "react";
 
 import HTML from "../assets/html.png";
 import CSS from "../assets/css.png";
+import django from "../assets/django.png";
 import JavaScript from "../assets/javascript.png";
 import ReactImg from "../assets/react.png";
 import Node from "../assets/node.png";
@@ -188,7 +189,11 @@ const Skills = () => {
             <p>Redis</p>
           </div>
           <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
-            <img className="w-20 mx-auto mb-2" src={docker} alt="CSS" />
+            <img
+              className="w-20 mx-auto mb-2 scale-105"
+              src={docker}
+              alt="CSS"
+            />
             <p>Docker</p>
           </div>{" "}
           <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
@@ -198,6 +203,14 @@ const Skills = () => {
           <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
             <img className="w-20 mx-auto mb-2" src={webRTC} alt="CSS" />
             <p>WebRTC</p>
+          </div>
+          <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
+            <img
+              className="w-20 mx-auto mb-2 scale-90"
+              src={django}
+              alt="CSS"
+            />
+            <p>Django</p>
           </div>
         </div>
       </div>
