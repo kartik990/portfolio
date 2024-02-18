@@ -100,7 +100,7 @@ const Skills = () => {
             <img className="w-20 mx-auto mb-2" src={Node} alt="Node" />
             <p>Node</p>
           </div>
-          <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
+          <div className="flex flex-col justify-end gap-4 items-center  hover:scale-110 duration-300">
             <img className="w-20 mx-auto mb-2" src={express} alt="Mongo" />
             <p>Express</p>
           </div>
@@ -116,7 +116,7 @@ const Skills = () => {
             <img className="w-20 mx-auto mb-2" src={git} alt="CSS" />
             <p>Git</p>
           </div>
-          <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
+          <div className="flex flex-col justify-end gap-4 items-center  hover:scale-110 duration-300">
             <img
               className="w-20 mx-auto mb-2"
               src={material}
@@ -124,11 +124,11 @@ const Skills = () => {
             />
             <p>Material Ui</p>
           </div>
-          <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
+          <div className="flex flex-col justify-end gap-4 items-center  hover:scale-110 duration-300">
             <img className="w-20 mx-auto mb-2" src={boot} alt="CSS" />
             <p>Bootstrap</p>
           </div>
-          <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
+          <div className="flex flex-col justify-end gap-4 items-center  hover:scale-110 duration-300">
             <img className="w-20 mx-auto mb-2" src={sass} alt="sass" />
             <p>Sass</p>
           </div>
@@ -140,9 +140,9 @@ const Skills = () => {
             <img className="w-20 mx-auto mb-2" src={figma} alt="CSS" />
             <p>Figma</p>
           </div>
-          <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
+          <div className="flex flex-col justify-end gap-4 items-center  hover:scale-110 duration-300">
             <img
-              className="w-20 mx-auto mb-2 self-center rounded-md"
+              className="w-20 mx-auto mb-2 rounded-md"
               src={linux}
               alt="CSS"
             />
@@ -173,11 +173,19 @@ const Skills = () => {
             <p>TypeORM</p>
           </div>
           <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
-            <img className="w-20 mx-auto mb-2" src={postgre} alt="CSS" />
+            <img
+              className="w-20 mx-auto mb-2 scale-90"
+              src={postgre}
+              alt="CSS"
+            />
             <p>PostgreSQL</p>
           </div>
-          <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
-            <img className="w-20 mx-auto mb-2" src={mysql} alt="CSS" />
+          <div className="flex flex-col justify-end items-center gap-4 hover:scale-110 duration-300">
+            <img
+              className="w-20 mx-auto mb-2 scale-110"
+              src={mysql}
+              alt="CSS"
+            />
             <p>MySQL</p>
           </div>{" "}
           <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
@@ -188,7 +196,7 @@ const Skills = () => {
             <img className="w-20 mx-auto mb-2" src={redis} alt="CSS" />
             <p>Redis</p>
           </div>
-          <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
+          <div className="flex flex-col justify-end items-center  hover:scale-110 duration-300">
             <img
               className="w-20 mx-auto mb-2 scale-105"
               src={docker}
@@ -204,13 +212,13 @@ const Skills = () => {
             <img className="w-20 mx-auto mb-2" src={webRTC} alt="CSS" />
             <p>WebRTC</p>
           </div>
-          <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
+          <div className="flex flex-col justify-between items-center relative hover:scale-110 duration-300 pb-1">
             <img
-              className="w-20 mx-auto mb-2 scale-90"
+              className="w-20 mx-auto mb-2 scale-[70%]"
               src={django}
               alt="CSS"
             />
-            <p>Django</p>
+            <p className="absolute bottom-0">Django</p>
           </div>
         </div>
       </div>
