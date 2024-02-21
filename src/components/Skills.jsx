@@ -7,6 +7,7 @@ import JavaScript from "../assets/javascript.png";
 import ReactImg from "../assets/react.png";
 import Node from "../assets/node.png";
 import FireBase from "../assets/firebase.png";
+import astro from "../assets/astro.png";
 import GitHub from "../assets/github.png";
 import git from "../assets/git.png";
 import material from "../assets/mi.png";
@@ -84,6 +85,14 @@ const Skills = () => {
             <img className="w-20 mx-auto mb-2" src={strapi} alt="CSS" />
             <p>Strapi</p>
           </div>
+          <div className="flex flex-col justify-end items-center relative hover:scale-110 duration-300 pb-1">
+            <img
+              className="w-20 mx-auto mb-2 scale-125 mb-6"
+              src={astro}
+              alt="CSS"
+            />
+            <p className="absolute bottom-0">Astro</p>
+          </div>
           <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
             <img className="w-20 mx-auto mb-2" src={nextjs} alt="nextjs" />
             <p>NEXTjs</p>
@@ -107,10 +116,6 @@ const Skills = () => {
           <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
             <img className="w-20 mx-auto mb-2" src={Mongo} alt="Mongo" />
             <p>MongoDB</p>
-          </div>
-          <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
-            <img className="w-20 mx-auto mb-2" src={postman} alt="CSS" />
-            <p>Postman</p>
           </div>
           <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
             <img className="w-20 mx-auto mb-2" src={git} alt="CSS" />
@@ -192,6 +197,18 @@ const Skills = () => {
             <img className="w-20 mx-auto mb-2" src={GitHub} alt="CSS" />
             <p>GitHub</p>
           </div>
+          <div className="flex flex-col justify-between items-center relative hover:scale-110 duration-300 pb-1">
+            <img
+              className="w-20 mx-auto mb-2 scale-[70%]"
+              src={django}
+              alt="CSS"
+            />
+            <p className="absolute bottom-0">Django</p>
+          </div>
+          <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
+            <img className="w-20 mx-auto mb-2" src={postman} alt="CSS" />
+            <p>Postman</p>
+          </div>
           <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
             <img className="w-20 mx-auto mb-2" src={redis} alt="CSS" />
             <p>Redis</p>
@@ -211,14 +228,6 @@ const Skills = () => {
           <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
             <img className="w-20 mx-auto mb-2" src={webRTC} alt="CSS" />
             <p>WebRTC</p>
-          </div>
-          <div className="flex flex-col justify-between items-center relative hover:scale-110 duration-300 pb-1">
-            <img
-              className="w-20 mx-auto mb-2 scale-[70%]"
-              src={django}
-              alt="CSS"
-            />
-            <p className="absolute bottom-0">Django</p>
           </div>
         </div>
       </div>

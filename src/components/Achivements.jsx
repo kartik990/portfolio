@@ -52,13 +52,6 @@ const Achievements = () => {
                       </span>{" "}
                       DSA questions
                     </li>
-                    <li>
-                      Solved{" "}
-                      <span className="font-bold text-xl text-gray-100 mb-2">
-                        50+
-                      </span>{" "}
-                      SQL Questions
-                    </li>
                   </ul>
                 </p>
               </div>

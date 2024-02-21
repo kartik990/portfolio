@@ -53,8 +53,8 @@ const Experience = () => {
                     </li>
                     <li>
                       {" "}
-                      Build portal UI using radixUI and assisted in building
-                      forms services using formik and react-query.{" "}
+                      Build portal UI using radixUI and build forms services
+                      using formik and react-query.{" "}
                     </li>
                   </ul>
                 </p>
