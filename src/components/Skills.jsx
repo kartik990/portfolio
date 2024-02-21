@@ -87,7 +87,7 @@ const Skills = () => {
           </div>
           <div className="flex flex-col justify-end items-center relative hover:scale-110 duration-300 pb-1">
             <img
-              className="w-20 mx-auto mb-2 scale-125 mb-6"
+              className="w-20 mx-auto scale-125 mb-6"
               src={astro}
               alt="CSS"
             />
