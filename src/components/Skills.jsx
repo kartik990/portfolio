@@ -7,9 +7,11 @@ import JavaScript from "../assets/javascript.png";
 import ReactImg from "../assets/react.png";
 import Node from "../assets/node.png";
 import FireBase from "../assets/firebase.png";
+import aws from "../assets/aws.png";
+import reactNative from "../assets/react-naitve.png";
 import astro from "../assets/astro.png";
+import gatsby from "../assets/gatsby.png";
 import GitHub from "../assets/github.png";
-import git from "../assets/git.png";
 import material from "../assets/mi.png";
 import cpp from "../assets/cpp.png";
 import boot from "../assets/bookt.png";
@@ -33,9 +35,9 @@ import postgre from "../assets/postgre.webp";
 import netlify from "../assets/netlify.png";
 import python from "../assets/python.webp";
 import apollo from "../assets/apollo.png";
-import typeorm from "../assets/typeorm.png";
 import strapi from "../assets/strapi.jpg";
 import redis from "../assets/redis.png";
+import prisma from "../assets/prisma.png";
 
 const Skills = () => {
   return (
@@ -94,6 +96,14 @@ const Skills = () => {
             <p className="absolute bottom-0">Astro</p>
           </div>
           <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
+            <img
+              className="w-20 mx-auto mb-2 rounded-full"
+              src={gatsby}
+              alt="CSS"
+            />
+            <p>Gatsby</p>
+          </div>
+          <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
             <img className="w-20 mx-auto mb-2" src={nextjs} alt="nextjs" />
             <p>NEXTjs</p>
           </div>
@@ -116,10 +126,6 @@ const Skills = () => {
           <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
             <img className="w-20 mx-auto mb-2" src={Mongo} alt="Mongo" />
             <p>MongoDB</p>
-          </div>
-          <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
-            <img className="w-20 mx-auto mb-2" src={git} alt="CSS" />
-            <p>Git</p>
           </div>
           <div className="flex flex-col justify-end gap-4 items-center  hover:scale-110 duration-300">
             <img
@@ -174,8 +180,8 @@ const Skills = () => {
             <p>Apollo Client</p>
           </div>
           <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
-            <img className="w-20 mx-auto mb-2" src={typeorm} alt="CSS" />
-            <p>TypeORM</p>
+            <img className="w-20 mx-auto mb-2" src={prisma} alt="CSS" />
+            <p>Prisma</p>
           </div>
           <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
             <img
@@ -210,6 +216,14 @@ const Skills = () => {
             <p>Postman</p>
           </div>
           <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
+            <img className="w-20 mx-auto mb-2" src={socket} alt="CSS" />
+            <p>Socket.IO</p>
+          </div>
+          <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
+            <img className="w-20 mx-auto mb-2" src={webRTC} alt="CSS" />
+            <p>WebRTC</p>
+          </div>
+          <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
             <img className="w-20 mx-auto mb-2" src={redis} alt="CSS" />
             <p>Redis</p>
           </div>
@@ -222,12 +236,16 @@ const Skills = () => {
             <p>Docker</p>
           </div>{" "}
           <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
-            <img className="w-20 mx-auto mb-2" src={socket} alt="CSS" />
-            <p>Socket.IO</p>
+            <img className="w-20 mx-auto mb-2" src={aws} alt="aws" />
+            <p>AWS</p>
           </div>
           <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
-            <img className="w-20 mx-auto mb-2" src={webRTC} alt="CSS" />
-            <p>WebRTC</p>
+            <img
+              className="w-32 mx-auto scale-110 rounded-lg"
+              src={reactNative}
+              alt="reactNative"
+            />
+            <p>React Native</p>
           </div>
         </div>
       </div>

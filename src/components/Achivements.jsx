@@ -10,19 +10,14 @@ const Achievements = () => {
             Accomplishment
           </p>
           <div className="flex flex-col gap-12  mt-10">
-            <div className="w-auto max-w-[1000px] flex gap-5">
-              <a
-                href="https://leetcode.com/kartik____r/"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <img
-                  className="w-[160px]  mb-2 rounded-md"
-                  src={Leetcode}
-                  alt="daphnisLabs"
-                />
-              </a>
-              <div>
+            <div className="flex gap-5">
+              <img
+                className="w-[160px]  mb-2 rounded-md"
+                src={Leetcode}
+                alt="leetcode"
+              />
+
+              <div className="w-auto">
                 <a
                   href="https://leetcode.com/kartik____r/"
                   rel="noreferrer"
@@ -35,7 +30,7 @@ const Achievements = () => {
                     <li>
                       Highest Contest rating :{" "}
                       <span className="font-bold text-xl text-gray-100 mb-2">
-                        1700 [top 12.4%]
+                        1704 [top 12.4%]
                       </span>{" "}
                     </li>
                     <li>
