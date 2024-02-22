@@ -8,8 +8,8 @@ import ReactImg from "../assets/react.png";
 import Node from "../assets/node.png";
 import FireBase from "../assets/firebase.png";
 import astro from "../assets/astro.png";
+import gatsby from "../assets/gatsby.png";
 import GitHub from "../assets/github.png";
-import git from "../assets/git.png";
 import material from "../assets/mi.png";
 import cpp from "../assets/cpp.png";
 import boot from "../assets/bookt.png";
@@ -94,6 +94,14 @@ const Skills = () => {
             <p className="absolute bottom-0">Astro</p>
           </div>
           <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
+            <img
+              className="w-20 mx-auto mb-2 rounded-full"
+              src={gatsby}
+              alt="CSS"
+            />
+            <p>Gatsby</p>
+          </div>
+          <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
             <img className="w-20 mx-auto mb-2" src={nextjs} alt="nextjs" />
             <p>NEXTjs</p>
           </div>
@@ -116,10 +124,6 @@ const Skills = () => {
           <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
             <img className="w-20 mx-auto mb-2" src={Mongo} alt="Mongo" />
             <p>MongoDB</p>
-          </div>
-          <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
-            <img className="w-20 mx-auto mb-2" src={git} alt="CSS" />
-            <p>Git</p>
           </div>
           <div className="flex flex-col justify-end gap-4 items-center  hover:scale-110 duration-300">
             <img
