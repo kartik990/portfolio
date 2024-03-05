@@ -7,6 +7,8 @@ import JavaScript from "../assets/javascript.png";
 import ReactImg from "../assets/react.png";
 import Node from "../assets/node.png";
 import FireBase from "../assets/firebase.png";
+import aws from "../assets/aws.png";
+import reactNative from "../assets/react-native-1.svg";
 import astro from "../assets/astro.png";
 import gatsby from "../assets/gatsby.png";
 import GitHub from "../assets/github.png";
@@ -214,6 +216,14 @@ const Skills = () => {
             <p>Postman</p>
           </div>
           <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
+            <img className="w-20 mx-auto mb-2" src={socket} alt="CSS" />
+            <p>Socket.IO</p>
+          </div>
+          <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
+            <img className="w-20 mx-auto mb-2" src={webRTC} alt="CSS" />
+            <p>WebRTC</p>
+          </div>
+          <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
             <img className="w-20 mx-auto mb-2" src={redis} alt="CSS" />
             <p>Redis</p>
           </div>
@@ -226,12 +236,12 @@ const Skills = () => {
             <p>Docker</p>
           </div>{" "}
           <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
-            <img className="w-20 mx-auto mb-2" src={socket} alt="CSS" />
-            <p>Socket.IO</p>
+            <img className="w-20 mx-auto mb-2" src={aws} alt="aws" />
+            <p>AWS</p>
           </div>
           <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
-            <img className="w-20 mx-auto mb-2" src={webRTC} alt="CSS" />
-            <p>WebRTC</p>
+            <img className="w-32 mx-auto" src={reactNative} alt="reactNative" />
+            <p>React Native</p>
           </div>
         </div>
       </div>
