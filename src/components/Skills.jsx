@@ -8,7 +8,7 @@ import ReactImg from "../assets/react.png";
 import Node from "../assets/node.png";
 import FireBase from "../assets/firebase.png";
 import aws from "../assets/aws.png";
-import reactNative from "../assets/react-native-1.svg";
+import reactNative from "../assets/react-naitve.png";
 import astro from "../assets/astro.png";
 import gatsby from "../assets/gatsby.png";
 import GitHub from "../assets/github.png";
@@ -240,7 +240,11 @@ const Skills = () => {
             <p>AWS</p>
           </div>
           <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
-            <img className="w-32 mx-auto" src={reactNative} alt="reactNative" />
+            <img
+              className="w-32 mx-auto scale-110 rounded-lg"
+              src={reactNative}
+              alt="reactNative"
+            />
             <p>React Native</p>
           </div>
         </div>
