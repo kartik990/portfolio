@@ -35,9 +35,9 @@ import postgre from "../assets/postgre.webp";
 import netlify from "../assets/netlify.png";
 import python from "../assets/python.webp";
 import apollo from "../assets/apollo.png";
-import typeorm from "../assets/typeorm.png";
 import strapi from "../assets/strapi.jpg";
 import redis from "../assets/redis.png";
+import prisma from "../assets/prisma.png";
 
 const Skills = () => {
   return (
@@ -180,8 +180,8 @@ const Skills = () => {
             <p>Apollo Client</p>
           </div>
           <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
-            <img className="w-20 mx-auto mb-2" src={typeorm} alt="CSS" />
-            <p>TypeORM</p>
+            <img className="w-20 mx-auto mb-2" src={prisma} alt="CSS" />
+            <p>Prisma</p>
           </div>
           <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
             <img

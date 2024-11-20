@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import admin from "./../assets/projects/AdminPanel.png";
 import pizza from "./../assets/projects/pizzaApp.png";
 import material from "./../assets/projects/material.png";
@@ -6,7 +6,6 @@ import hotel from "./../assets/projects/hotel.png";
 import social from "./../assets/projects/socialApp.png";
 import shell from "./../assets/projects/shell.png";
 import rtcapp from "./../assets/projects/rtcapp.png";
-import insights from "./../assets/projects/insights.png";
 
 import CSS from "../assets/css.png";
 import mui from "../assets/mi.png";
@@ -23,10 +22,12 @@ import redux from "../assets/redux.png";
 import socket from "../assets/socket.png";
 import webRTC from "../assets/webRTC.png";
 import ts from "../assets/ts.png";
-import graphql from "../assets/graphql.png";
+import prisma from "../assets/prisma.png";
 import postgre from "../assets/postgre.webp";
-import typeorm from "../assets/typeorm.png";
-import redis from "../assets/redis.png";
+import tailwind from "../assets/tailwind.png";
+import aws from "../assets/aws.png";
+import insights from "../assets/insights.png";
+import gamehub from "../assets/projects/Gamehub/chess2.png";
 
 const Work = () => {
   return (
@@ -40,7 +41,7 @@ const Work = () => {
         </div>
 
         {/* Projects Container */}
-        <div className="grid sm:grid-cols-2 md:grid-col-3 gap-7">
+        <div className="grid sm:grid-cols-2 md:grid-col-3 gap-7 relative">
           {/* Card */}
           <div
             className="shadow-lg shadow-[#040c16] group container rounded-lg flex justify-center items-center mx-auto "
@@ -61,16 +62,25 @@ const Work = () => {
                 <div className="flex flex-col gap-3 w-auto h-full">
                   <div className="flex gap-2 my-2 sm:my-4 flex-wrap">
                     <img className="w-12 h-12" src={nextjs} alt="CSS" />
-                    <img className="w-12 h-12" src={graphql} alt="CSS" />
-                    <img className="w-12 h-12" src={typeorm} alt="CSS" />
                     <img className="w-12 h-12" src={ts} alt="CSS" />
+                    <img className="w-12 h-12" src={socket} alt="CSS" />
+                    <img className="w-12 h-12" src={webRTC} alt="CSS" />
+                    <img className="w-12 h-12" src={aws} alt="CSS" />
+                    <img className="w-12 h-12" src={prisma} alt="CSS" />
                     <img className="w-12 h-12" src={postgre} alt="CSS" />
-                    <img className="w-12 h-12" src={redis} alt="CSS" />
-                    <img className="w-12 h-12" src={docker} alt="CSS" />
                   </div>
                   <div className="pt-0 text-center flex flex-1 items-start gap-3">
                     <a
-                      href="https://github.com/kartik990/Insights-frontend"
+                      href="https://insights-web-three.vercel.app/"
+                      rel="noreferrer"
+                      target="_blank"
+                    >
+                      <button className="text-center rounded-lg px-3 py-2  bg-white text-gray-700 font-bold text-base">
+                        Live Link
+                      </button>
+                    </a>
+                    <a
+                      href="https://github.com/kartik990/insights-web"
                       rel="noreferrer"
                       target="_blank"
                     >
@@ -79,7 +89,7 @@ const Work = () => {
                       </button>
                     </a>
                     <a
-                      href="https://github.com/kartik990/Insights-backend"
+                      href="https://github.com/kartik990/insights-server"
                       rel="noreferrer"
                       target="_blank"
                     >
@@ -95,7 +105,7 @@ const Work = () => {
           <div
             className="shadow-lg shadow-[#040c16] group container rounded-lg flex justify-center items-center mx-auto "
             style={{
-              backgroundImage: `url( ${rtcapp})`,
+              backgroundImage: `url( ${gamehub})`,
               "background-size": `cover`,
               "background-repeat": `no-repeat`,
             }}
@@ -103,23 +113,32 @@ const Work = () => {
             <div className="opacity-0 content-div px-8 py-6 group-hover:opacity-100 w-full h-full rounded-lg">
               <div className="opacity-0 group-hover:opacity-100">
                 <div className="text-2xl font-bold text-white tracking-wider">
-                  Amigo
+                  Gamehub
                 </div>
                 <div className="text-base font-medium text-white ">
-                  An WebRTC real-time chat and video conferencing web
-                  application build using:
+                  A real-time gaming website with games chess, sudoku, flappy
+                  bird and snake game.
                 </div>
                 <div className="flex flex-col gap-3 w-auto h-full">
                   <div className="flex gap-2 my-2 sm:my-4  flex-wrap">
-                    <img className="w-12 h-12" src={ReactImg} alt="CSS" />
-                    <img className="w-12 h-12" src={webRTC} alt="CSS" />
+                    <img className="w-12 h-12" src={nextjs} alt="CSS" />
+                    <img className="w-12 h-12" src={ts} alt="CSS" />
                     <img className="w-12 h-12" src={socket} alt="CSS" />
-                    <img className="w-12 h-12" src={redux} alt="CSS" />
                     <img className="w-auto h-12" src={Node} alt="CSS" />
+                    <img className="w-auto h-12" src={tailwind} alt="CSS" />
                   </div>
                   <div className="pt-0 text-center flex flex-1 items-start gap-3">
                     <a
-                      href="https://github.com/kartik990/AmigosClient"
+                      href="https://gamehub-steel-two.vercel.app/"
+                      rel="noreferrer"
+                      target="_blank"
+                    >
+                      <button className="text-center rounded-lg px-3 py-2  bg-white text-gray-700 font-bold text-base">
+                        Live Link
+                      </button>
+                    </a>
+                    <a
+                      href="https://github.com/kartik990/gamehub"
                       rel="noreferrer"
                       target="_blank"
                     >
@@ -128,7 +147,7 @@ const Work = () => {
                       </button>
                     </a>
                     <a
-                      href="https://github.com/kartik990/AmigosServer"
+                      href="https://github.com/kartik990/gamehub-server"
                       rel="noreferrer"
                       target="_blank"
                     >

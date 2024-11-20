@@ -34,7 +34,62 @@ const Experience = () => {
                   <p className="font-extrabold text-2xl mb-0">Globeia Inc.</p>
                 </a>
                 <p className="font-bold text-lg text-gray-400 mb-2 flex">
-                  Full Stack Developer Intern | Oct 2023 - Jan 2024 |
+                  Full Stack Developer - FTE | July 2024 - Present |
+                </p>
+                <p className="w-full max-w-[800px] font-medium text-left text-slate-400">
+                  <ul className="list-disc list-inside">
+                    <li>
+                      Engineered automated{" "}
+                      <b className="font-extrabold">cron jobs</b> on Strapi to
+                      send reminder emails to clients, improving support and
+                      service interaction reminders and ensuring timely customer
+                      engagement.
+                    </li>
+                    <li>
+                      Integrated{" "}
+                      <b className="font-extrabold">AWS Rekognition</b> to
+                      extract text from photo IDs and verify live selfies
+                      against photo IDs for real-time.
+                    </li>
+                    <li>
+                      Implemented four core services on the{" "}
+                      <b className="font-extrabold">client and admin portals</b>{" "}
+                      to automate customer interactions with the company,
+                      enhancing productivity, security, and responsiveness.
+                    </li>
+                    <li>
+                      Optimized SEO strategies to boost rankings for
+                      city-specific criminal record check pages, achieving under{" "}
+                      <b className="font-extrabold">
+                        Top 10 positions on Google.
+                      </b>
+                    </li>
+                  </ul>
+                </p>
+              </div>
+            </div>
+            <div className="w-auto max-w-[1000px] flex gap-5">
+              <a
+                href="https://www.globeia.ca/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <img
+                  className="w-[160px] mx-auto mb-2 rounded-md"
+                  src={globeia}
+                  alt="daphnisLabs"
+                />
+              </a>
+              <div>
+                <a
+                  href="https://www.globeia.com/"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  <p className="font-extrabold text-2xl mb-0">Globeia Inc.</p>
+                </a>
+                <p className="font-bold text-lg text-gray-400 mb-2 flex">
+                  Full Stack Developer Intern | September 2023 - June 2024 |
                 </p>
                 <p className="w-full max-w-[800px] font-medium text-left text-slate-400">
                   <ul className="list-disc list-inside">
@@ -46,15 +101,6 @@ const Experience = () => {
                     <li>
                       Integrated Strapi into Globeia website for dynamic content
                       updates.
-                    </li>
-                    <li>
-                      Revamped and fixed the UI of 10+ web pages of the project,
-                      significantly improving the SEO score.
-                    </li>
-                    <li>
-                      {" "}
-                      Build portal UI using radixUI and build forms services
-                      using formik and react-query.{" "}
                     </li>
                   </ul>
                 </p>
@@ -104,54 +150,6 @@ const Experience = () => {
                     </li>
                     <li>
                       Build custom admin panels tailored to client requirements.
-                    </li>
-                  </ul>
-                </p>
-              </div>
-            </div>
-            <div className="w-auto max-w-[1000px] flex gap-5">
-              <a
-                href="https://www.linkedin.com/company/rotaract-club-abv-iiitm/?originalSubdomain=in"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <img
-                  className="w-[160px] mx-auto mb-2 rounded-md"
-                  src={rotaractImg}
-                  alt="daphnisLabs"
-                />
-              </a>
-              <div>
-                <a
-                  href="https://www.linkedin.com/company/rotaract-club-abv-iiitm/?originalSubdomain=in"
-                  rel="noreferrer"
-                  target="_blank"
-                >
-                  <p className="font-extrabold text-2xl mb-0">Rotaract</p>
-                </a>
-                <p className="font-bold text-lg text-gray-400 mb-2">
-                  Head of Humans of Gwalior | Aug 2021 - Mar 2022
-                </p>
-                <p className="w-auto max-w-[800px] font-medium text-left text-slate-400">
-                  <ul className="list-disc list-inside">
-                    <li>
-                      Organised events and interviews to understand not so
-                      common life of common people of Gwalior.
-                      <br />
-                      <a
-                        href="https://medium.com/@rotaractiiitm"
-                        rel="noreferrer"
-                        target="_blank"
-                      >
-                        <span className="underline font-bold italic">
-                          Medium Link
-                        </span>
-                      </a>
-                    </li>
-                    <li>
-                      Managed volunteers to organise interviews and blogs based
-                      on peoples real life exepreiences and events that define
-                      their life.
                     </li>
                   </ul>
                 </p>
