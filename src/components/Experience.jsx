@@ -39,30 +39,28 @@ const Experience = () => {
                 <p className="w-full max-w-[800px] font-medium text-left text-slate-400">
                   <ul className="list-disc list-inside">
                     <li>
-                      Engineered automated{" "}
-                      <b className="font-extrabold">cron jobs</b> on Strapi to
-                      send reminder emails to clients, improving support and
-                      service interaction reminders and ensuring timely customer
-                      engagement.
+                      Addressed Automated customer engagement workflows using
+                      <b className="font-extrabold"> corn jobs in Strapi</b>,
+                      increasing timely reminder delivery by 25%.
                     </li>
                     <li>
-                      Integrated{" "}
-                      <b className="font-extrabold">AWS Rekognition</b> to
-                      extract text from photo IDs and verify live selfies
-                      against photo IDs for real-time.
+                      Integrated
+                      <b className="font-extrabold"> AWS Rekognition</b> to
+                      extract data from ID documents and validate live selfies,
+                      reducing manual verification time by 60%.
                     </li>
                     <li>
-                      Implemented four core services on the{" "}
-                      <b className="font-extrabold">client and admin portals</b>{" "}
-                      to automate customer interactions with the company,
-                      enhancing productivity, security, and responsiveness.
+                      Overhauled <b className="font-extrabold">Sentry</b>{" "}
+                      integration in client and admin portals to enable
+                      real-time error monitoring, alerting, and debugging of
+                      user-facing issues.
                     </li>
                     <li>
-                      Optimized SEO strategies to boost rankings for
-                      city-specific criminal record check pages, achieving under{" "}
-                      <b className="font-extrabold">
-                        Top 10 positions on Google.
-                      </b>
+                      Consolidated{" "}
+                      <b className="font-extrabold">Stripe webhooks</b> to
+                      handle post-payment logic—verifying transactions, updating
+                      the database, sending confirmation emails, and granting
+                      service access.
                     </li>
                   </ul>
                 </p>
@@ -89,18 +87,30 @@ const Experience = () => {
                   <p className="font-extrabold text-2xl mb-0">Globeia Inc.</p>
                 </a>
                 <p className="font-bold text-lg text-gray-400 mb-2 flex">
-                  Full Stack Developer Intern | September 2023 - June 2024 |
+                  Full Stack Developer Intern | October 2023 - June 2024 |
                 </p>
                 <p className="w-full max-w-[800px] font-medium text-left text-slate-400">
                   <ul className="list-disc list-inside">
                     <li>
-                      Implemented Technologies: Next js, React js, Javascript,
-                      Typescript, Styled Components, CSS, applications, Material
-                      UI , Strapi.
+                      Accelerated{" "}
+                      <b className="font-extrabold">SEO strategies,</b>{" "}
+                      increasing organic traffic by 30% and ranking city based
+                      pages in{" "}
+                      <b className="font-extrabold">Google's Top 10.</b>
                     </li>
                     <li>
-                      Integrated Strapi into Globeia website for dynamic content
-                      updates.
+                      Collaborated design and content teams to develop
+                      multi-country landing and service pages and forms for{" "}
+                      <b className="font-extrabold">
+                        40+ countries and 6+ services.
+                      </b>
+                    </li>
+                    <li>
+                      Implemented Technologies:{" "}
+                      <b className="font-extrabold">
+                        Next js, React js, Javascript, Typescript, Styled
+                        Components, Material UI ,Stripe, Sentry.
+                      </b>
                     </li>
                   </ul>
                 </p>
@@ -139,17 +149,27 @@ const Experience = () => {
                 <p className="w-full max-w-[800px] font-medium text-left text-slate-400">
                   <ul className="list-disc list-inside">
                     <li>
-                      Assisted in developing multiple client-based projects,
-                      including E-commerce, warehouse, and booking applications,
-                      by designing and developing reusable UI components using
-                      Next.js, React, Redux, and Tailwind CSS.
+                      Developed and Managed client-facing web applications
+                      (e-commerce, warehouse, booking) by building reusable UI
+                      components with{" "}
+                      <b className="font-extrabold">
+                        {" "}
+                        Next.js, React, Redux, Material UI, and Tailwind CSS.
+                      </b>
                     </li>
                     <li>
-                      Developed various UI Elements using React.js, Next.js, and
-                      Tailwind for a better user experience.
+                      Implemented secure{" "}
+                      <b className="font-extrabold">Email OTP verification</b>{" "}
+                      workflows for sensitive user operations such as login and
+                      checkout.
                     </li>
                     <li>
-                      Build custom admin panels tailored to client requirements.
+                      Integrated{" "}
+                      <b className="font-extrabold">
+                        Google Maps Autocomplete API
+                      </b>{" "}
+                      to streamline address entry, improving user input accuracy
+                      and form completion speed.
                     </li>
                   </ul>
                 </p>

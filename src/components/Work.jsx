@@ -5,6 +5,8 @@ import material from "./../assets/projects/material.png";
 import hotel from "./../assets/projects/hotel.png";
 import social from "./../assets/projects/socialApp.png";
 import shell from "./../assets/projects/shell.png";
+import exchnage from "./../assets/projects/exchange.png";
+import pokemon from "./../assets/projects/pokemon.png";
 import rtcapp from "./../assets/projects/rtcapp.png";
 
 import CSS from "../assets/css.png";
@@ -17,13 +19,16 @@ import Mongo from "../assets/mongo.png";
 import sass from "../assets/sass.png";
 import nextjs from "../assets/nextjs.png";
 import express from "../assets/express.png";
+import swr from "../assets/swr.png";
 import docker from "../assets/docker.png";
 import redux from "../assets/redux.png";
 import socket from "../assets/socket.png";
 import webRTC from "../assets/webRTC.png";
 import ts from "../assets/ts.png";
+import redis from "../assets/redis.png";
 import prisma from "../assets/prisma.png";
 import postgre from "../assets/postgre.webp";
+import timescale from "../assets/timescale.png";
 import tailwind from "../assets/tailwind.png";
 import aws from "../assets/aws.png";
 import insights from "../assets/insights.png";
@@ -43,6 +48,56 @@ const Work = () => {
         {/* Projects Container */}
         <div className="grid sm:grid-cols-2 md:grid-col-3 gap-7 relative">
           {/* Card */}
+          <div
+            className="shadow-lg shadow-[#040c16] group container rounded-lg flex justify-center items-center mx-auto "
+            style={{
+              backgroundImage: `url( ${exchnage})`,
+              "background-size": `cover`,
+              "background-repeat": `no-repeat`,
+            }}
+          >
+            <div className="opacity-0 content-div px-8 py-6 group-hover:opacity-100 w-full h-full rounded-lg">
+              <div className="opacity-0 group-hover:opacity-100">
+                <div className="text-2xl font-bold text-white tracking-wider">
+                  Exchange App
+                </div>
+                <div className="hidden sm:block text-base font-medium text-white ">
+                  A stock exchange web app build using:
+                </div>
+                <div className="flex flex-col gap-3 w-auto h-full">
+                  <div className="flex gap-2 my-2 sm:my-4 flex-wrap">
+                    <img className="w-12 h-12" src={nextjs} alt="CSS" />
+                    <img className="w-12 h-12" src={ts} alt="CSS" />
+                    <img className="w-12 h-12" src={socket} alt="CSS" />
+                    <img className="w-12 h-12" src={redis} alt="CSS" />
+                    <img className="w-12 h-12" src={timescale} alt="CSS" />
+                    <img className="w-12 h-12" src={docker} alt="CSS" />
+                    <img className="w-12 h-12" src={aws} alt="CSS" />
+                  </div>
+                  <div className="pt-0 text-center flex flex-1 items-start gap-3">
+                    <a
+                      href="https://github.com/kartik990/stock-exchange/blob/main/README.md"
+                      rel="noreferrer"
+                      target="_blank"
+                    >
+                      <button className="text-center rounded-lg px-3 py-2  bg-white text-gray-700 font-bold text-base">
+                        Explore
+                      </button>
+                    </a>
+                    <a
+                      href="https://github.com/kartik990/stock-exchange"
+                      rel="noreferrer"
+                      target="_blank"
+                    >
+                      <button className="text-center rounded-lg px-3 py-2  bg-white text-gray-700 font-bold text-base">
+                        Code
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
           <div
             className="shadow-lg shadow-[#040c16] group container rounded-lg flex justify-center items-center mx-auto "
             style={{
@@ -102,6 +157,7 @@ const Work = () => {
               </div>
             </div>
           </div>
+
           <div
             className="shadow-lg shadow-[#040c16] group container rounded-lg flex justify-center items-center mx-auto "
             style={{
@@ -153,6 +209,58 @@ const Work = () => {
                     >
                       <button className="text-center rounded-lg px-3 py-2 bg-white text-gray-700 font-bold text-base">
                         Code server
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            className="shadow-lg shadow-[#040c16] group container rounded-lg flex justify-center items-center mx-auto "
+            style={{
+              backgroundImage: `url( ${pokemon})`,
+              "background-size": `cover`,
+              "background-repeat": `no-repeat`,
+            }}
+          >
+            <div className="opacity-0 content-div px-8 py-6 group-hover:opacity-100 w-full h-full rounded-lg">
+              <div className="opacity-0 group-hover:opacity-100">
+                <div className="text-2xl font-bold text-white tracking-wider">
+                  Pokemon Explorer
+                </div>
+                <div className="hidden sm:block text-base font-medium text-white ">
+                  A Pokemon Explorer website to learn more pokemons build using:
+                </div>
+                <div className="flex flex-col gap-3 w-auto h-full">
+                  <div className="flex gap-3 my-2 sm:my-4 flex-wrap">
+                    <img className="w-12 h-12" src={nextjs} alt="CSS" />
+                    <img className="w-12 h-12" src={ts} alt="CSS" />
+                    <img
+                      className="w-20 h-12 rounded-xl opacity-[82%]"
+                      src={swr}
+                      alt="swr"
+                    />
+                    <img className="w-12 h-12" src={tailwind} alt="CSS" />
+                  </div>
+                  <div className="pt-0 text-center flex flex-1 items-start gap-3">
+                    <a
+                      href="https://pokemon-explorer-umber.vercel.app/"
+                      rel="noreferrer"
+                      target="_blank"
+                    >
+                      <button className="text-center rounded-lg px-3 py-2  bg-white text-gray-700 font-bold text-base">
+                        Live Link
+                      </button>
+                    </a>
+                    <a
+                      href="https://github.com/kartik990/pokemonExplorer"
+                      rel="noreferrer"
+                      target="_blank"
+                    >
+                      <button className="text-center rounded-lg px-3 py-2  bg-white text-gray-700 font-bold text-base">
+                        Code
                       </button>
                     </a>
                   </div>

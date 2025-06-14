@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { GiDirectionSign } from "react-icons/gi";
-import { FiDownload } from "react-icons/fi";
+import { FaFileAlt } from "react-icons/fa";
 import { Link } from "react-scroll";
 
 const Home = () => {
@@ -76,15 +76,15 @@ const Home = () => {
           </Link>
 
           <a
-            href="https://drive.google.com/file/d/16BrZmfmp9QDOrHrDwS0gNuJNSrtrOgHZ/view?usp=sharing"
+            href="https://drive.google.com/file/d/1bb_rkqHl1NqYu_BCMK6X20Jco4pG2Xek/view?usp=sharing"
             rel="noreferrer"
             target="_blank"
           >
             <button
               className={`flex gap-2 justify-between items-center border-2 px-2 sm:px-6 py-3 my-2 hover:bg-pink-600 hover:border-pink-600 hover:duration-500 `}
             >
-              <span className="text-sm sm:text-base">Download CV</span>{" "}
-              <FiDownload />
+              <FaFileAlt />
+              <span className="text-sm sm:text-base">View Resume</span>{" "}
             </button>
           </a>
         </div>

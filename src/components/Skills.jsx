@@ -9,11 +9,12 @@ import Node from "../assets/node.png";
 import FireBase from "../assets/firebase.png";
 import aws from "../assets/aws.png";
 import reactNative from "../assets/react-naitve.png";
+import prometheus from "../assets/promotheses.webp";
+import kafka from "../assets/kafka.png";
 import astro from "../assets/astro.png";
 import gatsby from "../assets/gatsby.png";
 import GitHub from "../assets/github.png";
 import material from "../assets/mi.png";
-import cpp from "../assets/cpp.png";
 import boot from "../assets/bookt.png";
 import Mongo from "../assets/mongo.png";
 import sass from "../assets/sass.png";
@@ -22,6 +23,8 @@ import nextjs from "../assets/nextjs.png";
 import figma from "../assets/figma.png";
 import linux from "../assets/linux.png";
 import postman from "../assets/postman.png";
+import sentry from "../assets/sentry.jpg";
+import stripe from "../assets/stripe.webp";
 import express from "../assets/express.png";
 import mysql from "../assets/mysql.png";
 import docker from "../assets/docker.png";
@@ -37,6 +40,7 @@ import python from "../assets/python.webp";
 import apollo from "../assets/apollo.png";
 import strapi from "../assets/strapi.jpg";
 import redis from "../assets/redis.png";
+import timescale from "../assets/timescale.png";
 import prisma from "../assets/prisma.png";
 
 const Skills = () => {
@@ -70,14 +74,6 @@ const Skills = () => {
           <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
             <img className="w-20 mx-auto mb-2" src={ts} alt="CSS" />
             <p>TypeScript</p>
-          </div>
-          <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
-            <img className="w-20 mx-auto mb-2" src={python} alt="CSS" />
-            <p>Python</p>
-          </div>
-          <div className="flex flex-col justify-between items-center  hover:scale-110 duration-200">
-            <img className="w-20 mx-auto mb-2" src={cpp} alt="cpp" />
-            <p>C++</p>
           </div>
           <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
             <img className="w-20 mx-auto mb-2" src={FireBase} alt="FireBase" />
@@ -151,22 +147,6 @@ const Skills = () => {
             <img className="w-20 mx-auto mb-2" src={figma} alt="CSS" />
             <p>Figma</p>
           </div>
-          <div className="flex flex-col justify-end gap-4 items-center  hover:scale-110 duration-300">
-            <img
-              className="w-20 mx-auto mb-2 rounded-md"
-              src={linux}
-              alt="CSS"
-            />
-            <p>Linux</p>
-          </div>{" "}
-          <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
-            <img className="w-20 mx-auto mb-2" src={netlify} alt="CSS" />
-            <p>Netlify</p>
-          </div>{" "}
-          <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
-            <img className="w-20 mx-auto mb-2" src={vercel} alt="CSS" />
-            <p>Vercel</p>
-          </div>{" "}
           <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
             <img className="w-20 mx-auto mb-2" src={graphql} alt="CSS" />
             <p>Graphql</p>
@@ -191,6 +171,14 @@ const Skills = () => {
             />
             <p>PostgreSQL</p>
           </div>
+          <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
+            <img
+              className="w-20 mx-auto mb-2 scale-90"
+              src={timescale}
+              alt="CSS"
+            />
+            <p>Timescale Db</p>
+          </div>
           <div className="flex flex-col justify-end items-center gap-4 hover:scale-110 duration-300">
             <img
               className="w-20 mx-auto mb-2 scale-110"
@@ -199,22 +187,6 @@ const Skills = () => {
             />
             <p>MySQL</p>
           </div>{" "}
-          <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
-            <img className="w-20 mx-auto mb-2" src={GitHub} alt="CSS" />
-            <p>GitHub</p>
-          </div>
-          <div className="flex flex-col justify-between items-center relative hover:scale-110 duration-300 pb-1">
-            <img
-              className="w-20 mx-auto mb-2 scale-[70%]"
-              src={django}
-              alt="CSS"
-            />
-            <p className="absolute bottom-0">Django</p>
-          </div>
-          <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
-            <img className="w-20 mx-auto mb-2" src={postman} alt="CSS" />
-            <p>Postman</p>
-          </div>
           <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
             <img className="w-20 mx-auto mb-2" src={socket} alt="CSS" />
             <p>Socket.IO</p>
@@ -241,11 +213,31 @@ const Skills = () => {
           </div>
           <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
             <img
-              className="w-32 mx-auto scale-110 rounded-lg"
-              src={reactNative}
-              alt="reactNative"
+              className="w-20 mx-auto mb-2 rounded-xl"
+              src={sentry}
+              alt="aws"
             />
-            <p>React Native</p>
+            <p>Sentry</p>
+          </div>
+          <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
+            <img className="w-20 mx-auto mb-2" src={stripe} alt="aws" />
+            <p>Stripe</p>
+          </div>
+          <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
+            <img
+              className="w-20 mx-auto mb-2 rounded-xl"
+              src={kafka}
+              alt="aws"
+            />
+            <p>Kafka</p>
+          </div>
+          <div className="flex flex-col justify-between items-center hover:scale-110 duration-300">
+            <img
+              className="w-20 mx-auto translate-y-2 scale-y-125 rounded-xl"
+              src={prometheus}
+              alt="aws"
+            />
+            <p>Prometheus</p>
           </div>
         </div>
       </div>
