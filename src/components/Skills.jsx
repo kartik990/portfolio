@@ -132,20 +132,12 @@ const Skills = () => {
             <p>Material Ui</p>
           </div>
           <div className="flex flex-col justify-end gap-4 items-center  hover:scale-110 duration-300">
-            <img className="w-20 mx-auto mb-2" src={boot} alt="CSS" />
-            <p>Bootstrap</p>
-          </div>
-          <div className="flex flex-col justify-end gap-4 items-center  hover:scale-110 duration-300">
             <img className="w-20 mx-auto mb-2" src={sass} alt="sass" />
             <p>Sass</p>
           </div>
           <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
             <img className="w-20 mx-auto mb-2" src={tailwind} alt="CSS" />
             <p>TailWind</p>
-          </div>
-          <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
-            <img className="w-20 mx-auto mb-2" src={figma} alt="CSS" />
-            <p>Figma</p>
           </div>
           <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
             <img className="w-20 mx-auto mb-2" src={graphql} alt="CSS" />
