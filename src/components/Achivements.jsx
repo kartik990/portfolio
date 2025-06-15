@@ -6,11 +6,11 @@ const Achievements = () => {
     <div name="achievement" className="w-full h-auto pt-[150px] pb-[200px]  ">
       <div className="max-w-[1000px] mx-auto text-gray-300">
         <div className="p-6">
-          <p className="text-4xl pb-1 font-bold inline border-b-4 border-pink-600  ">
+          <p className="text-3xl md:text-4xl pb-1 font-bold inline border-b-4 border-pink-600  ">
             Accomplishment
           </p>
           <div className="flex flex-col gap-12  mt-10">
-            <div className="flex gap-5">
+            <div className="flex flex-col md:flex-row gap-5">
               <img
                 className="w-[160px]  mb-2 rounded-md"
                 src={Leetcode}
@@ -23,9 +23,11 @@ const Achievements = () => {
                   rel="noreferrer"
                   target="_blank"
                 >
-                  <p className="font-extrabold text-3xl mb-0">Leetcode</p>
+                  <p className="font-extrabold text-2xl md:text-3xl mb-0">
+                    Leetcode
+                  </p>
                 </a>
-                <p className="w-full max-w-[800px] font-medium text-lg text-left text-gray-300">
+                <p className="w-full max-w-[800px] font-medium text-md md:text-lg text-left text-gray-300">
                   <ul className="list-disc list-inside">
                     <li>
                       Highest Contest rating :{" "}

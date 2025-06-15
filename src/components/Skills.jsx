@@ -54,7 +54,7 @@ const Skills = () => {
           </p>
           <p className="mt-5">These are the technologies I've worked with...</p>
         </div>
-        <div className="w-full grid grid-cols-4 sm:grid-cols-8 gap-6 text-center py-8">
+        <div className="w-full grid grid-cols-3 sm:grid-cols-8 gap-6 text-center py-8">
           <div className="flex flex-col justify-between items-center hover:scale-110 duration-300">
             <img className="w-20 mx-auto mb-2" src={HTML} alt="HTML" />
             <p>HTML</p>
@@ -129,7 +129,7 @@ const Skills = () => {
               src={material}
               alt="materialUI"
             />
-            <p>Material Ui</p>
+            <p>MaterialUI</p>
           </div>
           <div className="flex flex-col justify-end gap-4 items-center  hover:scale-110 duration-300">
             <img className="w-20 mx-auto mb-2" src={sass} alt="sass" />

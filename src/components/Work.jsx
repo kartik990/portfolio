@@ -106,7 +106,7 @@ const Work = () => {
               "background-repeat": `no-repeat`,
             }}
           >
-            <div className="opacity-0 content-div px-8 py-6 group-hover:opacity-100 w-full h-full rounded-lg">
+            <div className="opacity-0 content-div px-4 md:px-8 py-6 group-hover:opacity-100 w-full h-full rounded-lg">
               <div className="opacity-0 group-hover:opacity-100">
                 <div className="text-2xl font-bold text-white tracking-wider">
                   Insights
@@ -130,7 +130,7 @@ const Work = () => {
                       rel="noreferrer"
                       target="_blank"
                     >
-                      <button className="text-center rounded-lg px-3 py-2  bg-white text-gray-700 font-bold text-base">
+                      <button className="text-center rounded-lg px-3 py-2 text-sm  bg-white text-gray-700 font-bold md:text-base">
                         Live Link
                       </button>
                     </a>
@@ -139,7 +139,7 @@ const Work = () => {
                       rel="noreferrer"
                       target="_blank"
                     >
-                      <button className="text-center rounded-lg px-3 py-2  bg-white text-gray-700 font-bold text-base">
+                      <button className="text-center rounded-lg px-3 py-2 text-sm  bg-white text-gray-700 font-bold md:text-base">
                         Code client
                       </button>
                     </a>
@@ -148,7 +148,7 @@ const Work = () => {
                       rel="noreferrer"
                       target="_blank"
                     >
-                      <button className="text-center rounded-lg px-3 py-2 bg-white text-gray-700 font-bold text-base">
+                      <button className="text-center rounded-lg px-3 py-2 text-sm bg-white text-gray-700 font-bold md:text-base">
                         Code server
                       </button>
                     </a>
@@ -166,7 +166,7 @@ const Work = () => {
               "background-repeat": `no-repeat`,
             }}
           >
-            <div className="opacity-0 content-div px-8 py-6 group-hover:opacity-100 w-full h-full rounded-lg">
+            <div className="opacity-0 content-div px-4 md:px-8 py-6 group-hover:opacity-100 w-full h-full rounded-lg">
               <div className="opacity-0 group-hover:opacity-100">
                 <div className="text-2xl font-bold text-white tracking-wider">
                   Gamehub
@@ -189,7 +189,7 @@ const Work = () => {
                       rel="noreferrer"
                       target="_blank"
                     >
-                      <button className="text-center rounded-lg px-3 py-2  bg-white text-gray-700 font-bold text-base">
+                      <button className="text-center rounded-lg px-3 py-2  text-sm bg-white text-gray-700 font-bold md:text-base">
                         Live Link
                       </button>
                     </a>
@@ -198,7 +198,7 @@ const Work = () => {
                       rel="noreferrer"
                       target="_blank"
                     >
-                      <button className="text-center rounded-lg px-3 py-2  bg-white text-gray-700 font-bold text-base">
+                      <button className="text-center rounded-lg px-3 py-2  text-sm bg-white text-gray-700 font-bold md:text-base">
                         Code client
                       </button>
                     </a>
@@ -207,7 +207,7 @@ const Work = () => {
                       rel="noreferrer"
                       target="_blank"
                     >
-                      <button className="text-center rounded-lg px-3 py-2 bg-white text-gray-700 font-bold text-base">
+                      <button className="text-center rounded-lg px-3 py-2 text-sm bg-white text-gray-700 font-bold md:text-base">
                         Code server
                       </button>
                     </a>
@@ -326,7 +326,7 @@ const Work = () => {
               "background-repeat": `no-repeat`,
             }}
           >
-            <div className="opacity-0 content-div px-8 py-6 group-hover:opacity-100 w-full h-full rounded-lg">
+            <div className="opacity-0 content-div px-4 md:px-8 py-6 group-hover:opacity-100 w-full h-full rounded-lg">
               <div className="opacity-0 group-hover:opacity-100">
                 <div className="text-2xl font-bold text-white tracking-wider">
                   Hotel Booking
@@ -347,7 +347,7 @@ const Work = () => {
                       rel="noreferrer"
                       target="_blank"
                     >
-                      <button className="text-center rounded-lg px-3 py-2 bg-[white] text-gray-700 font-bold text-base ">
+                      <button className="text-center rounded-lg px-3 py-2 text-sm bg-[white] text-gray-700 font-bold md:text-base ">
                         Live
                       </button>
                     </a>
@@ -356,7 +356,7 @@ const Work = () => {
                       rel="noreferrer"
                       target="_blank"
                     >
-                      <button className="text-center rounded-lg px-3 py-2  bg-white text-gray-700 font-bold text-base">
+                      <button className="text-center rounded-lg px-3 py-2 text-sm  bg-white text-gray-700 font-bold md:text-base">
                         Code client
                       </button>
                     </a>
@@ -365,7 +365,7 @@ const Work = () => {
                       rel="noreferrer"
                       target="_blank"
                     >
-                      <button className="text-center rounded-lg px-3 py-2 bg-white text-gray-700 font-bold text-base">
+                      <button className="text-center rounded-lg px-3 py-2 text-sm bg-white text-gray-700 font-bold md:text-base">
                         Code server
                       </button>
                     </a>

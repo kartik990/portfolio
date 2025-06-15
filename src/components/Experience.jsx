@@ -6,21 +6,21 @@ import rotaractImg from "./../assets/rotaract.jpeg";
 const Experience = () => {
   return (
     <div name="experience" className="w-full h-auto pt-[150px] pb-[200px]  ">
-      <div className="max-w-[1000px] mx-auto text-gray-300 p-4">
+      <div className="max-w-[1000px] mx-auto text-gray-300 md:p-4">
         <div className="p-4 ">
           <p className="text-4xl pb-1 font-bold inline border-b-4 border-pink-600  ">
             Experience
           </p>
           <p className="pt-4 mb-10">Past positions and work experience...</p>
           <div className="flex flex-col gap-12 px-4 mt-8">
-            <div className="w-auto max-w-[1000px] flex gap-5">
+            <div className="w-auto max-w-[1000px] flex flex-col items-start md:flex-row gap-5">
               <a
                 href="https://www.globeia.com/"
                 rel="noreferrer"
                 target="_blank"
               >
                 <img
-                  className="w-[160px] mx-auto mb-2 rounded-md"
+                  className="w-[80px] md:w-[160px] mx-auto mb-2 rounded-md"
                   src={globeia}
                   alt="daphnisLabs"
                 />
@@ -66,14 +66,14 @@ const Experience = () => {
                 </p>
               </div>
             </div>
-            <div className="w-auto max-w-[1000px] flex gap-5">
+            <div className="w-auto max-w-[1000px] flex flex-col items-start md:flex-row gap-5">
               <a
                 href="https://www.globeia.ca/"
                 rel="noreferrer"
                 target="_blank"
               >
                 <img
-                  className="w-[160px] mx-auto mb-2 rounded-md"
+                  className="w-[80px] md:w-[160px] mx-auto mb-2 rounded-md"
                   src={globeia}
                   alt="daphnisLabs"
                 />
@@ -116,14 +116,14 @@ const Experience = () => {
                 </p>
               </div>
             </div>
-            <div className="w-auto max-w-[1000px] flex gap-5">
+            <div className="w-auto max-w-[1000px] flex flex-col items-start md:flex-row gap-5">
               <a
                 href="https://www.daphnislabs.com/"
                 rel="noreferrer"
                 target="_blank"
               >
                 <img
-                  className="w-[160px] mx-auto mb-2 rounded-md"
+                  className="w-[80px] md:w-[160px] mx-auto mb-2 rounded-md"
                   src={daphnisImg}
                   alt="daphnisLabs"
                 />
