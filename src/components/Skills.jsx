@@ -140,6 +140,22 @@ const Skills = () => {
             <p>TailWind</p>
           </div>
           <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
+            <img
+              className="w-20 mx-auto mb-2 rounded-xl"
+              src={sentry}
+              alt="aws"
+            />
+            <p>Sentry</p>
+          </div>
+          <div className="flex flex-col justify-between items-center hover:scale-110 duration-300">
+            <img
+              className="w-20 mx-auto translate-y-2 scale-y-125 rounded-xl"
+              src={prometheus}
+              alt="aws"
+            />
+            <p>Prometheus</p>
+          </div>
+          <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
             <img className="w-20 mx-auto mb-2" src={graphql} alt="CSS" />
             <p>Graphql</p>
           </div>
@@ -156,6 +172,10 @@ const Skills = () => {
             <p>Prisma</p>
           </div>
           <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
+            <img className="w-20 mx-auto mb-2" src={stripe} alt="aws" />
+            <p>Stripe</p>
+          </div>
+          <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
             <img
               className="w-20 mx-auto mb-2 scale-90"
               src={postgre}
@@ -169,7 +189,11 @@ const Skills = () => {
               src={timescale}
               alt="CSS"
             />
-            <p>Timescale Db</p>
+            <p>Timescale</p>
+          </div>
+          <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
+            <img className="w-20 mx-auto mb-2" src={redis} alt="CSS" />
+            <p>Redis</p>
           </div>
           <div className="flex flex-col justify-end items-center gap-4 hover:scale-110 duration-300">
             <img
@@ -187,10 +211,6 @@ const Skills = () => {
             <img className="w-20 mx-auto mb-2" src={webRTC} alt="CSS" />
             <p>WebRTC</p>
           </div>
-          <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
-            <img className="w-20 mx-auto mb-2" src={redis} alt="CSS" />
-            <p>Redis</p>
-          </div>
           <div className="flex flex-col justify-end items-center  hover:scale-110 duration-300">
             <img
               className="w-20 mx-auto mb-2 scale-105"
@@ -206,30 +226,10 @@ const Skills = () => {
           <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
             <img
               className="w-20 mx-auto mb-2 rounded-xl"
-              src={sentry}
-              alt="aws"
-            />
-            <p>Sentry</p>
-          </div>
-          <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
-            <img className="w-20 mx-auto mb-2" src={stripe} alt="aws" />
-            <p>Stripe</p>
-          </div>
-          <div className="flex flex-col justify-between items-center  hover:scale-110 duration-300">
-            <img
-              className="w-20 mx-auto mb-2 rounded-xl"
               src={kafka}
               alt="aws"
             />
             <p>Kafka</p>
-          </div>
-          <div className="flex flex-col justify-between items-center hover:scale-110 duration-300">
-            <img
-              className="w-20 mx-auto translate-y-2 scale-y-125 rounded-xl"
-              src={prometheus}
-              alt="aws"
-            />
-            <p>Prometheus</p>
           </div>
         </div>
       </div>
